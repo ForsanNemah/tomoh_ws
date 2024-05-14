@@ -1,0 +1,115 @@
+/* --------------- header st5 --------------- */
+.tc-header-st5 {
+    position: relative;
+    
+    .lines {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        pointer-events: none;
+    }
+
+    .head-shaps {
+        position: absolute;
+        left: 3%;
+        top: 3%;
+        width: 94%;
+        height: 94%;
+        object-fit: cover;
+        pointer-events: none;
+    }
+
+    .header-card {
+        position: relative;
+        padding-top: 150px;
+        min-height: 100vh;
+        .info {
+            h6 {
+                position: relative;
+                font-size: 24px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                .line {
+                    position: relative;
+                    width: 140px;
+                    height: 1px;
+                    background-color: var(--cr-dark1);
+                    margin-inline-end: 20px;
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 15%;
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        border: 1px solid var(--cr-dark1);
+                    }
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 25%;
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        border: 1px solid var(--cr-dark1);
+                    }
+                }
+            }
+            h1 {
+                font-size: 125px;
+                line-height: 1.2;
+            }
+            .sub-img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                margin-top: 100px;
+            }
+        }
+        .main-img {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .head-vec1 {
+            position: absolute;
+            left: 55%;
+            bottom: 50px;
+            max-width: 20%;
+            object-fit: contain;
+        }
+    }
+
+
+    
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-st5 {
+        .header-card {
+            .info {
+                h1 {
+                    font-size: 45px;
+                }
+            }
+            .main-img {
+                display: none;
+            }
+        }
+        .lines {
+            width: 100%;
+        }
+    }
+}

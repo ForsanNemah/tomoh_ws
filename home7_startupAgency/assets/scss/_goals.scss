@@ -1,0 +1,51 @@
+/* --------------- goals st7 --------------- */
+.tc-goals-st7 {
+    position: relative;
+    padding: 140px 0;
+
+    .img-side {
+        h2 {
+            font-size: 50px;
+            span {
+                color: transparent;
+                -webkit-text-stroke: 1px var(--cr-dark1);
+            }
+        }
+    }
+
+    .features-wrapper {
+        position: relative;
+        padding: 20px 40px;
+        margin-top: 80px;
+        background-color: #fff;
+        .feat-card {
+            display: flex;
+            padding: 30px 0;
+            border-bottom: 1px solid #9993;
+            &:hover {
+                border-color: var(--cr-dark1);
+            }
+            &:last-of-type {
+                border: 0;
+            }
+            .num {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border-radius: 50%;
+                border: 1px solid var(--cr-dark1);
+                margin-inline-end: 20px;
+                flex-shrink: 0;
+                margin-top: 5px;
+            }        
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-goals-st7 {
+
+    }
+}

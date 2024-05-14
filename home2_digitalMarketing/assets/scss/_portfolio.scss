@@ -1,0 +1,105 @@
+/* --------------- portfolio st2 --------------- */
+.tc-portfolio-st2 {
+    position: relative;
+    padding: 150px 0;
+    background-color: #151515;
+    color: #fff;
+    overflow: hidden;
+
+    .vec1 {
+        position: absolute;
+        top: 40%;
+        left: 0;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .vec2 {
+        position: absolute;
+        bottom: 30%;
+        right: 0;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .title-slider {
+        margin-bottom: 50px;
+        h2 {
+            font-size: calc(10vw + 40px);
+            color: #fff;
+            opacity: 0.05;
+            text-transform: uppercase;
+            white-space: nowrap;
+            line-height: 0.9;
+        }
+        .swiper-wrapper {
+            -webkit-transition-timing-function: linear !important;
+            transition-timing-function: linear !important;
+            position: relative;
+            pointer-events: none;
+            .swiper-slide {
+                width: max-content !important;
+            }
+        }
+    }
+
+    .portfolio-slider {
+        position: relative;
+        overflow: hidden;
+        height: 630px;
+        .swiper-slide {
+            .card-item {
+                .info {
+                    opacity: 0;
+                    transform: scale(0.8) rotate(20deg);
+                }
+                .img {
+                    opacity: 0;
+                    transform: scale(0.8) rotate(-20deg);
+                }
+            }
+        }
+        .swiper-slide-active {
+            .card-item {
+                .info {
+                    opacity: 1;
+                    transform: scale(1) rotate(0);
+                }
+                .img {
+                    opacity: 1;
+                    transform: scale(1) rotate(0);
+                }
+            }
+        }
+        .img {
+            position: relative;
+            height: 630px;
+            overflow: hidden;
+            transition: all 1s ease;
+        }
+        .info {
+            transition: all 1s ease;
+        }
+        .swiper-pagination {
+            display: flex;
+            width: max-content;
+            top: auto;
+            bottom: 30px;
+            left: 60%;
+        }
+        .swiper-fraction {
+            position: absolute;
+            right: 0;
+            bottom: 50px;
+            font-size: 120px;
+            font-weight: 100;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-portfolio-st2 {
+
+    }
+}

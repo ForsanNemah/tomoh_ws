@@ -1,0 +1,19 @@
+/* --------------- features st3 --------------- */
+.tc-features-st3 {
+    position: relative;
+    padding: 150px 0;
+
+    .feat-card {
+        position: relative;
+        padding: 40px 30px;
+        border: 1px solid #9995;
+        border-radius: 30px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-features-st3 {
+
+    }
+}

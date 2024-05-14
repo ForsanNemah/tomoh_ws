@@ -1,0 +1,79 @@
+/* --------------- services st8 --------------- */
+.tc-services-st8 {
+    position: relative;
+    padding: 0 3vw;
+
+    .title {
+        position: relative;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #9994;
+        .text {
+            position: relative;
+            padding-top: 20px;
+            .vec {
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 20px;
+            }
+        }
+    }
+
+    .services-content {
+        position: relative;
+        padding: 140px 0;
+        background-color: #f6f6f6;
+    }
+
+    .service-card {
+        position: relative;
+        margin-bottom: 50px;
+        &:nth-of-type(even) {
+            .row {
+                flex-direction: row-reverse;
+            }
+        }
+        .img {
+            position: relative;
+            overflow: hidden;
+            border-radius: 30px;
+        }
+        .info {
+            .num {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                border-radius: 50%;
+                text-align: center;
+                border: 1px solid #9995;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+            .icon-list {
+                position: relative;
+                margin-top: 30px;
+                li {
+                    display: flex;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-services-st8 {
+        .service-card {
+            .img {
+                margin-bottom: 50px;
+            }
+            .w-auto {
+                width: 100% !important;
+            }
+        }
+    }
+}

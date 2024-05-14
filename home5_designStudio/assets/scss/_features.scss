@@ -1,0 +1,51 @@
+/* --------------- features st5 --------------- */
+.tc-features-st5 {
+    position: relative;
+    padding-bottom: 150px;
+
+    .img-side {
+        h2 {
+            font-size: 50px;
+            span {
+                color: transparent;
+                -webkit-text-stroke: 1px var(--cr-dark1);
+            }
+        }
+    }
+
+    .features-wrapper {
+        position: relative;
+        padding: 20px 40px;
+        border: 1px solid #9993;
+        margin-top: 80px;
+        .feat-card {
+            display: flex;
+            padding: 30px 0;
+            border-bottom: 1px solid #9993;
+            &:hover {
+                border-color: var(--cr-dark1);
+            }
+            &:last-of-type {
+                border: 0;
+            }
+            .num {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border-radius: 50%;
+                border: 1px solid var(--cr-dark1);
+                margin-inline-end: 20px;
+                flex-shrink: 0;
+                margin-top: 5px;
+            }        
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-features-st5 {
+
+    }
+}

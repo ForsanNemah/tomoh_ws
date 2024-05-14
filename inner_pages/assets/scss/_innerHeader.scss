@@ -1,0 +1,133 @@
+/* --------------- innerHeader st1 --------------- */
+.tc-innerHeader-st1 {
+    position: relative;
+    padding: 140px 0;
+
+    .title {
+        position: relative;
+    }
+    
+    .lg-txt {
+        position: absolute;
+        top: 140px;
+        right: 0;
+        font-size: 200px;
+        font-weight: bold;
+        opacity: 5%;
+        text-transform: uppercase;
+        line-height: 0.9;
+    }
+
+    .rotate-box {
+        position: relative;
+        width: 220px;
+        height: 220px;
+        display: block;
+        margin-inline-start: auto;
+        margin-inline-end: 0;
+        transform: translateY(-100px);
+
+        .icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, - 50%);
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background-color: #f0f0f0;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .rotate-text {
+            animation: rotateText 20s linear infinite;
+            font-weight: 300;
+            text-transform: uppercase;
+            position: absolute;
+            left: 0;
+            border-radius: 50%;
+            color: #151515;
+        }
+
+        .rotate-circle svg {
+            width: 220px;
+            height: 220px;
+            fill: #000;
+            transform: scale(1);
+        }
+
+        @keyframes rotateText {
+            0% {
+                transform: rotate(360deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+    .header-shaps {
+        position: absolute;
+        bottom: 50px;
+        right: 20px;
+        width: 70%;
+        object-fit: contain;
+    }
+
+    .nav-pills {
+        margin-top: 50px;
+        .nav-item {
+            position: relative;
+            &:last-of-type {
+                .nav-link {
+                    padding-right: 0;
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+            
+            .nav-link {
+                position: relative;
+                border-radius: 0;
+                background-color: transparent;
+                color: #777;
+                text-transform: capitalize;
+                font-size: 16px;
+                font-weight: 600;
+                &::after {
+                    position: absolute;
+                    content: "/";
+                    right: 0;
+                    top: 7px;
+                }
+                &.active {
+                    color: #151515;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-innerHeader-st1 {
+        padding: 80px 0;
+        overflow: hidden;
+        .rotate-box {
+            transform: translateY(0);
+            display: none;
+        }
+        .nav-pills {
+            .nav-item {
+                .nav-link {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

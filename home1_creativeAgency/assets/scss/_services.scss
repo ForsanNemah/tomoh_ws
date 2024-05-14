@@ -1,0 +1,127 @@
+/* --------------- services st1 --------------- */
+.tc-services-st1 {
+    position: relative;
+    padding: 150px 0;
+    background-color: #151515;
+    color: #fff;
+    overflow: hidden;
+
+    .title {
+        p {
+            position: relative;
+            font-size: 16px;
+            color: #ababab;
+            &::after {
+                position: absolute;
+                content: "";
+                right: 0;
+                top: -25px;
+                width: 25px;
+                height: 25px;
+                background-image: url(../img/vec8.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+
+    .services-slider {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 50px;
+    }
+
+    .service-card {
+        position: relative;
+        margin-top: 50px;
+        .icon {
+            height: 85px;
+            margin-bottom: 30px;
+        }
+        .card-title {
+            p {
+                font-size: 16px;
+                color: #ababab;
+                margin-top: 5px;
+            }
+        }
+        .num-line {
+            position: relative;
+            margin: 30px 0;
+            &::before {
+                position: absolute;
+                content: "";
+                left: 0;
+                top: calc(50% - 4px);
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background-color: #fff2;
+                border-radius: 50%;
+            }
+            &::after {
+                position: absolute;
+                content: "";
+                left: 8px;
+                top: 50%;
+                width: calc(100% - 10px);
+                height: 1px;
+                background-color: #fff2;
+            }
+            .num {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
+                border: 1px solid #fff2;
+                background-color: #151515;
+                margin-inline-start: auto;
+                margin-inline-end: 0;
+                border-radius: 50%;
+                font-size: 14px;
+                color: #ababab;
+                z-index: 10;
+            }
+        }
+        ul {
+            li {
+                display: flex;
+                align-items: center;
+                margin: 15px 0;
+                color: #ababab;
+                font-size: 16px;
+                .ico {
+                    font-size: 14px;
+                    margin-inline-end: 15px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+    }
+
+    .half-cir {
+        position: absolute;
+        bottom: 150px;
+        right: -20px;
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+
+    .vec9 {
+        position: absolute;
+        bottom: 50%;
+        left: 0;
+        height: 25px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-services-st1 {
+
+    }
+}

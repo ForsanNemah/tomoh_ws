@@ -1,0 +1,97 @@
+/* --------------- navbar st2 --------------- */
+.tc-navbar-st2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 99;
+    padding: 20px 3vw;
+
+    .navbar-nav {
+        .nav-link {
+            font-size: 16px;
+            font-weight: 500;
+            margin: 5px 15px;
+            color: #fff;
+            text-transform: capitalize;
+            &:hover,
+            &.active {
+                color: var(--cr-orange1);
+            }
+        }
+        .flag {
+            height: 20px;
+            margin-inline-end: 10px;
+        }
+        .lang-dropdown {
+            .nav-link {
+                position: relative;
+                padding-inline-start: 50px;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    top: calc(50% - 10px);
+                    height: 20px;
+                    width: 1px;
+                    background-color: #9995;
+                }
+            }
+            .dropdown-menu {
+                left: 50px;
+            }
+        }
+        .search-item {
+            margin-inline-start: 6vw;
+        }
+        .menu-item {
+            .nav-link {
+                position: relative;
+                padding-inline-end: 50px;
+                &:hover {
+                    &::before,
+                    &::after {
+                        background-color: var(--cr-orange1);
+                    }
+                }
+                &::before {
+                    position: absolute;
+                    content: "";
+                    right: 0;
+                    top: calc(50% + 4px);
+                    width: 40px;
+                    height: 2px;
+                    background-color: #fff;
+                    transition: all 0.3s ease;
+                }
+                &::after {
+                    position: absolute;
+                    content: "";
+                    right: 0;
+                    top: calc(50% - 4px);
+                    width: 40px;
+                    height: 2px;
+                    background-color: #fff;
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+    }
+
+    // .logo-wrapper {
+    //     width: 100%;
+    // }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-navbar-st2 {
+        .logo-wrapper {
+            width: 100%;
+            .navbar-brand {
+                width: calc(100% - 80px);
+            }
+        }
+    }
+}

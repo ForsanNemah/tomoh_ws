@@ -1,0 +1,65 @@
+/* --------------- features st7 --------------- */
+.tc-features-st7 {
+    position: relative;
+    // padding: 140px;
+
+    .content {
+        position: relative;
+        .year {
+            position: absolute;
+            right: 0;
+            top: 125px;
+        }
+    }
+
+    .feature-card {
+        position: relative;
+        padding: 40px 50px;
+        &.one-shap {
+            left: 15px;
+            .shap1 {
+                display: none;
+            }
+        }
+        .icon {
+            height: 85px;
+            margin-bottom: 40px;
+        }
+        .info {
+            padding-top: 20px;
+            h6 {
+                font-size: 21px;
+            }
+        }
+        .shap1 {
+            position: absolute;
+            left: 0;
+            top: 15px;
+            width: 100%;
+            transform: translateX(-52%);
+        }
+        .shap2 {
+            position: absolute;
+            right: 0;
+            top: 15px;
+            width: 100%;
+            transform: translateX(52%);
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-features-st7 {
+        overflow: hidden;
+        .feature-card {
+            margin-bottom: 80px;
+            &.one-shap {
+                left: 0;
+                .shap1 {
+                    display: block;
+                }
+            }
+        }
+    }
+}

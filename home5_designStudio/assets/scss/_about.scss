@@ -1,0 +1,129 @@
+/* --------------- about st5 --------------- */
+.tc-about-st5 {
+    position: relative;
+    padding: 150px 0;
+
+    .services-links {
+        padding-bottom: 100px;
+        border-bottom: 1px solid #9995;
+        a {
+            position: relative;
+            font-size: 52px;
+            margin-inline-end: 40px;
+            color: #777;
+            display: inline;
+            font-family: 'mona-Light';
+            .dash {
+                margin-inline-start: 20px;
+                font-weight: 300;
+            }
+            .num {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border: 1px solid #9993;
+                border-radius: 50%;
+                position: relative;
+                top: -30px;
+                font-size: 14px;
+            }
+
+            &:last-of-type{
+                padding-inline-end: 0;
+                margin-inline-end: 0;
+                .dash {
+                    display: none;
+                }
+            }
+
+            &:hover {
+                font-weight: bold;
+                color: var(--cr-dark1);
+            }
+        }
+    }
+
+    .img {
+        position: relative;
+        height: 410px;
+        mask-image: url(../img/ab_mask.png);
+        mask-size: contain;
+        mask-repeat: no-repeat;
+    }
+
+    .rotate-box {
+        position: relative;
+        width: 220px;
+        height: 220px;
+        display: block;
+        z-index: 20;
+        margin-top: 20px;
+        margin-top: -30px;
+
+        .icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, - 50%);
+            height: 35px;
+            width: 35px;
+            object-fit: contain;
+        }
+
+        .rotate-text {
+            animation: rotateText 20s linear infinite;
+            font-weight: 300;
+            text-transform: uppercase;
+            position: absolute;
+            left: 0;
+            border-radius: 50%;
+            color: var(--cr-dark1);
+            font-size: 30px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        .rotate-circle svg {
+            width: 220px;
+            height: 220px;
+            fill: var(--cr-dark1);
+            transform: scale(1);
+        }
+
+        @keyframes rotateText {
+            0% {
+                transform: rotate(360deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-about-st5 {
+        overflow: hidden;
+        .services-links {
+            a {
+                font-size: 14px;
+                margin-inline-end: 15px;
+                display: inline-block;
+                .dash {
+                    display: none;
+                }
+                .num {
+                    width: 22px;
+                    height: 22px;
+                    line-height: 22px;
+                    margin: 0 5px;
+                    top: 0;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}

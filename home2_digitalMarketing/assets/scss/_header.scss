@@ -1,0 +1,118 @@
+/* --------------- header st2 --------------- */
+.tc-header-st2 {
+    position: relative;
+    min-height: 100vh;
+    background-color: #151515;
+    background-image: url(../img/header_bg.png);
+    background-size: cover;
+    color: #fff;
+    padding: 200px 0 120px;
+    
+    .shapes {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    h1 {
+        position: relative;
+        font-size: 128px;
+        font-weight: bolder;
+        .shap {
+            position: absolute;
+            left: 0;
+            top: -5%;
+            height: 110%;
+            max-height: unset;
+        }
+        .title-item {
+            display: flex;
+            align-items: center;
+        }
+        .img {
+            width: 195px;
+            height: 90px;
+            border-radius: 100px;
+            overflow: hidden;
+            margin-inline-start: 50px;
+        }
+        .users {
+            position: relative;
+            width: 200px;
+            height: 85px;
+            padding-inline-end: 50px;
+            margin-inline-end: 30px;
+            .txt-circle {
+                width: 85px;
+                height: 85px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background-color: #151515;
+                color: #fff;
+                text-align: center;
+                border: 1px solid #fff2;
+                border-radius: 50%;
+                position: absolute;
+                right: 0;
+                top: 0;
+                z-index: 10;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .imgs {
+        width: calc(100% + 80px);
+        .img {
+            height: 500px;
+            border-radius: 200px 200px 0 0;
+            overflow: hidden;
+        }
+        .numbers {
+            position: relative;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-inline-start: 1px solid #fff2;
+            border-bottom: 1px solid #fff2;
+            h5 {
+                font-size: 32px;
+            }
+            p {
+                color: #777;
+                font-weight: 500;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-st2 {
+        h1 {
+            font-size: 50px;
+            .img {
+                height: 60px;
+            }
+        }
+        .imgs {
+            width: 100%;
+            margin-top: 40px;
+            .img {
+                height: 250px;
+            }
+            .numbers {
+                display: block;
+                .num_card {
+                    margin: 15px 0;
+                }
+            }
+        }
+    }
+}

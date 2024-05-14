@@ -1,0 +1,144 @@
+/* --------------- header st7 --------------- */
+.tc-header-st7 {
+    position: relative;
+    padding: 75px 0 140px;
+    overflow: hidden;
+
+    .top-inf {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        .vec10 {
+            height: 50px;
+        }
+        .txt {
+            font-size: 16px;
+            text-align: end;
+        }
+    }
+
+    h1 {
+        position: relative;
+        font-size: 80px;
+        text-transform: capitalize;
+        margin-bottom: 50px;
+        .vec6 {
+            position: relative;
+            top: 17px;
+            left: 30px;
+        }
+    }
+
+    .rotate-box {
+        position: relative;
+        width: 220px;
+        height: 220px;
+        display: block;
+
+        .icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, - 50%);
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background-color: #E1E1E1;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .rotate-text {
+            animation: rotateText 20s linear infinite;
+            font-weight: 300;
+            text-transform: uppercase;
+            position: absolute;
+            left: 0;
+            border-radius: 50%;
+            color: #151515;
+        }
+
+        .rotate-circle svg {
+            width: 220px;
+            height: 220px;
+            fill: #000;
+            transform: scale(1);
+        }
+
+        @keyframes rotateText {
+            0% {
+                transform: rotate(360deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+
+    .mark-sliders {
+        position: relative;
+        padding-top: 200px;
+        // overflow: hidden;
+        
+        .swiper-wrapper {
+            -webkit-transition-timing-function: linear !important;
+            transition-timing-function: linear !important;
+            position: relative;
+            pointer-events: none;
+            .swiper-slide {
+                width: max-content !important;
+            }
+        }
+
+        .slider {
+            position: relative;
+            background-color: var(--cr-dark1);
+            color: #fff;
+            width: 140%;
+            left: -30%;
+            &:first-of-type {
+                transform: rotate(11deg);
+                z-index: 10;
+            }
+            &:last-of-type {
+                transform: rotate(2deg);
+            }
+            .item {
+                position: relative;
+                padding: 30px 0;
+                &::after {
+                    position: absolute;
+                    content: "";
+                    left: -100px;
+                    top: calc(50% - 25px);
+                    width: 50px;
+                    height: 50px;
+                    border: 1px solid #fff;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-st7 {
+        h1 {
+            font-size: 50px;
+            .vec6 {
+                display: none;
+            }
+        }
+        .img {
+            margin-top: 50px;
+        }
+    }
+}

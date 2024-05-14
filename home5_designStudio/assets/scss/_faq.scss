@@ -1,0 +1,118 @@
+/* --------------- footer st5 --------------- */
+.tc-faq-st5 {
+    position: relative;
+    padding: 150px 0;
+
+    .accordion {
+        position: relative;
+        padding-top: 20px;
+        .accordion-item {
+            margin-top: 30px;
+            border-radius: 0;
+            border: 1px solid #9993;
+            .accordion-button {
+                border-radius: 0 !important;
+                background-color: transparent !important;
+                font-size: 16px;
+                padding: 20px;
+                color: var(--cr-dark1);
+                box-shadow: none;
+                border-bottom: 1px solid #9993;
+                &.collapsed {
+                    border: 0;
+                    &::before {
+                        background-color: #f6f6f6;
+                    }
+                    &::after {
+                        content: "\f067";
+                        color: var(--cr-dark1);
+                    }
+                }
+                &::before {
+                    position: absolute;
+                    content: "";
+                    right: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 65px;
+                    background-color: var(--cr-dark1);
+                }
+                &::after {
+                    content: "\f068";
+                    font-family: "Font Awesome 6 Pro";
+                    z-index: 20;
+                    transform: rotate(0);
+                    background-image: none;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 200;
+                }
+            }
+        }
+    }
+
+    .rotate-box {
+        position: relative;
+        width: 220px;
+        height: 220px;
+        display: block;
+        margin-inline-start: auto;
+        margin-inline-end: 0;
+
+        .icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, - 50%);
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background-color: #f0f0f0;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .rotate-text {
+            animation: rotateText 20s linear infinite;
+            font-weight: 300;
+            text-transform: uppercase;
+            position: absolute;
+            left: 0;
+            border-radius: 50%;
+            color: #151515;
+        }
+
+        .rotate-circle svg {
+            width: 220px;
+            height: 220px;
+            fill: #000;
+            transform: scale(1);
+        }
+
+        @keyframes rotateText {
+            0% {
+                transform: rotate(360deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-faq-st5 {
+        overflow: hidden;
+        .accordion {
+            .accordion-item {
+                .accordion-button {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

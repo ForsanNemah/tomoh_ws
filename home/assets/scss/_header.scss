@@ -1,0 +1,139 @@
+/* --------------- header st6 --------------- */
+.tc-header-st6 {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(../img/boxes.png);
+    background-size: contain;
+    object-position: bottom;
+    background-repeat: repeat;
+    padding-top: 200px;
+
+    .title {
+        position: relative;
+
+        h1 {
+            position: relative;
+            font-size: 200px;
+            text-transform: uppercase;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .ltr_a {
+            position: absolute;
+            top: -6%;
+            right: 3%;
+        }
+
+        .rotate-box {
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            display: block;
+            z-index: 20;
+            margin-top: 20px;
+            margin-top: -30px;
+            left: 5%;
+            bottom: 0;
+    
+            .icon {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, - 50%);
+                height: 35px;
+                width: 35px;
+                object-fit: contain;
+            }
+    
+            .rotate-text {
+                animation: rotateText 20s linear infinite;
+                font-weight: 300;
+                text-transform: uppercase;
+                position: absolute;
+                left: 0;
+                border-radius: 50%;
+                color: var(--cr-dark1);
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+    
+            .rotate-circle svg {
+                width: 220px;
+                height: 220px;
+                fill: var(--cr-dark1);
+                transform: scale(1);
+            }
+    
+            @keyframes rotateText {
+                0% {
+                    transform: rotate(360deg);
+                }
+    
+                100% {
+                    transform: rotate(0deg);
+                }
+            }
+        }
+
+        .vec10 {
+            position: absolute;
+            top: 20%;
+            left: 19%;
+        }
+
+    }
+    
+    .shapes {
+        position: absolute;
+        right: 3%;
+        bottom: 3%;
+        width: 90%;
+        object-fit: contain;
+    }
+
+    .content {
+        margin-top: 50px;
+        .img2 {
+            margin-top: -140px;
+        }
+        h6 {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            color: var(--cr-dark1);
+            margin-top: 30px;
+            .icon {
+                margin-inline-end: 15px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-st6 {
+        padding-top: 100px;
+        .title {
+            h1 {
+                font-size: 60px;
+            }
+            .ltr_a {
+                height: 50%;
+            }
+            .rotate-box {
+                margin-top: 0;
+                left: 0;
+                bottom: -205px;
+            }
+        }
+        .content {
+            .img2 {
+                margin-top: 30px;
+            }
+        }
+    }
+}

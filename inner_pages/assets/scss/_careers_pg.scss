@@ -1,0 +1,77 @@
+/* --------------- carreers st1 --------------- */
+.careers-page-st1 {
+
+    .video-card {
+        position: relative;
+        .mask-img {
+            position: relative;
+            mask-image: url(../img/careers/ab_mask1.png);
+            mask-size: contain;
+            mask-repeat: no-repeat;
+            overflow: hidden;
+            margin-top: 50px;
+        }
+        .play-btn {
+            position: absolute;
+            top: calc(50% - 75px);
+            left: calc(50% - 75px);
+            z-index: 20;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #151515;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    }
+
+    .tc-careers-st19 {
+        position: relative;
+        padding: 140px 0;
+        .careers {
+            position: relative;
+            padding: 0 40px;
+            border: 1px solid #9993;
+            .career-card {
+                position: relative;
+                display: block;
+                padding: 50px 0;
+                border-bottom: 1px solid #9993;
+                &:last-of-type {
+                    border: 0;
+                }
+                .arrow {
+                    img {
+                        transform: rotate(-45deg);
+                    }
+                }
+                .num {
+                    width: 30px;
+                    height: 30px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid #9993;
+                    border-radius: 50%;
+                }
+                &:hover {
+                    border-color: #151515;
+                    h6 {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .careers-page-st1 {
+
+    }
+}

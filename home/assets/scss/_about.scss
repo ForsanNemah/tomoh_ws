@@ -1,0 +1,96 @@
+/* --------------- about st6 --------------- */
+.tc-about-st6 {
+    position: relative;
+    padding-top: 140px;
+
+    .services-links {
+        padding-bottom: 140px;
+        border-bottom: 1px solid #9995;
+        a {
+            position: relative;
+            font-size: 52px;
+            margin-inline-end: 40px;
+            color: #777;
+            display: inline;
+            font-family: 'mona-Light';
+            .dash {
+                margin-inline-start: 20px;
+                font-weight: 300;
+            }
+            .num {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border: 1px solid #9993;
+                border-radius: 50%;
+                position: relative;
+                top: -30px;
+                font-size: 14px;
+            }
+
+            &:last-of-type{
+                padding-inline-end: 0;
+                margin-inline-end: 0;
+                .dash {
+                    display: none;
+                }
+            }
+
+            &:hover {
+                font-weight: bold;
+                color: var(--cr-dark1);
+            }
+        }
+    }
+
+    .img1 {
+        position: relative;
+        height: 200px;
+        width: 200px;
+        mask-image: url(../img/ab_mask.png);
+        mask-size: contain;
+        mask-repeat: no-repeat;
+    }
+
+    .main-img {
+        position: relative;
+        mask-image: url(../img/ab_mask1.png);
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        overflow: hidden;
+        margin-top: 150px;
+    }
+
+    .main-content {
+        position: relative;
+        padding: 140px 0;
+        border-bottom: 1px solid #9995;
+
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-about-st6 {
+        overflow: hidden;
+        .services-links {
+            a {
+                font-size: 14px;
+                margin-inline-end: 15px;
+                display: inline-block;
+                .dash {
+                    display: none;
+                }
+                .num {
+                    width: 22px;
+                    height: 22px;
+                    line-height: 22px;
+                    margin: 0 5px;
+                    top: 0;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}

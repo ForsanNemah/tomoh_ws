@@ -1,0 +1,142 @@
+/* --------------- contact st1 --------------- */
+.contact-page-st1 {
+
+    /* --------------- innerHeader st1 --------------- */
+    .tc-header-st13 {
+        position: relative;
+        padding: 140px 0;
+
+        .title {
+            position: relative;
+            h1 {
+                font-size: 130px;
+                text-transform: uppercase;
+            }
+        }
+
+        .social-links {
+            position: relative;
+            display: flex;
+            margin-top: 60px;
+            a {
+                width: 50px;
+                height: 50px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #222;
+                color: #fff9;
+                border-inline-end: 1px solid #fff2;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+        .check-list {
+            position: relative;
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                width: 100%;
+                margin: 10px 0;
+                font-size: 16px;
+                font-weight: bold;
+                i {
+                    font-size: 13px;
+                    margin-inline-end: 20px;
+                }
+            }
+        }
+        
+        .lg-txt {
+            position: absolute;
+            top: 160px;
+            right: 0;
+            font-size: 180px;
+            font-weight: bold;
+            opacity: 5%;
+            text-transform: uppercase;
+            line-height: 0.9;
+        }
+
+        .header-shaps {
+            position: absolute;
+            top: 30%;
+            right: 20px;
+            width: 45%;
+            object-fit: contain;
+        }
+
+    }
+
+    @media screen and (max-width: 991px) {
+        .tc-header-st13 {
+            padding: 80px 0;
+            overflow: hidden;
+            .title {
+                h1 {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+
+
+
+
+    /* --------------- features st11 --------------- */
+    .tc-map-st13 {
+        .map {
+            position: relative;
+            height: 800px;
+            iframe {
+                filter: grayscale(1);
+            }
+            .contact-form {
+                position: absolute;
+                left: 3vw;
+                bottom: 0;
+                background-color: #fff;
+                padding: 5vw;
+                .form-control {
+                    background-color: transparent;
+                    border-radius: 0;
+                    border: 0;
+                    border-bottom: 1px solid #9993;
+                    padding: 15px 0;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        .tc-map-st13 {
+            .map {
+                height: max-content;
+                iframe {
+                    height: 350px;
+                }
+                .contact-form {
+                    position: relative;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+
+    /* --------------- services st7 --------------- */
+
+
+
+    /* --------------- testimonials st8 --------------- */
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+}

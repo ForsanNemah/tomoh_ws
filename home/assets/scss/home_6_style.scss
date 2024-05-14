@@ -1,0 +1,91 @@
+/* ========= [ * page-home_1 ]  =========*/
+
+// navbar
+@import 'navbar';
+
+
+// header
+@import 'header';
+
+
+// about
+@import 'about';
+
+
+// portfolio
+@import 'portfolio';
+
+
+// clients
+@import 'clients';
+
+
+// faq
+@import 'faq';
+
+
+// testimonials
+@import 'testimonials';
+
+
+// subscribe
+@import 'subscribe';
+
+
+// blog
+@import 'blog';
+
+
+// footer
+@import 'footer';
+
+
+// ------------ home style ------------
+.home-st6 {
+    position: relative;
+
+    #scrollsmoother-container {
+        background-image: url(../img/body_bg.png);
+        background-size: contain;
+        background-repeat: repeat;
+    }
+
+    
+}
+
+@media screen and (max-width: 991px) {
+    .home-st6 {
+        br{
+            display: none;
+        }
+        .fsz-50 {
+            font-size: 30px !important;
+        }
+        .fsz-45 {
+            font-size: 25px !important;
+        }
+        
+        .fsz-40 {
+            font-size: 25px !important;
+        }
+        .mb-90 {
+            margin-bottom: 40px !important;
+        }
+        .fsz-30 {
+            font-size: 18px !important;
+        }
+
+        .mb-50 {
+            margin-bottom: 30px !important;
+        }
+
+        .mt-5 {
+            margin-top: 2rem!important;
+        }
+
+        .fsz-80 {
+            font-size: 50px !important;
+        }
+
+    }
+}

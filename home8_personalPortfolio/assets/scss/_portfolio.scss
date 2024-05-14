@@ -1,0 +1,82 @@
+/* --------------- portfolio st8 --------------- */
+.tc-portfolio-st8 {
+    position: relative;
+    padding: 140px 0;
+
+    .title {
+        h2 {
+            font-size: 200px;
+            line-height: 0.8;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+
+    .nav-pills {
+        .nav-item {
+            position: relative;
+            &:last-of-type {
+                .nav-link {
+                    padding-right: 0;
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+            
+            .nav-link {
+                position: relative;
+                border-radius: 0;
+                background-color: transparent;
+                color: #777;
+                text-transform: capitalize;
+                font-size: 16px;
+                padding-right: 25px;
+                &::after {
+                    position: absolute;
+                    content: "/";
+                    right: 0;
+                    top: 7px;
+                }
+                &.active {
+                    color: #151515;
+                }
+            }
+        }
+    }
+
+    .project-card {
+        position: relative;
+        display: block;
+        margin-top: 24px;
+        color: #fff;
+        .img {
+            position: relative;
+            height: 400px;
+            overflow: hidden;
+        }
+        .info {
+            position: absolute;
+            z-index: 20;
+            padding: 50px;
+            left: 0;
+            bottom: 0;
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-portfolio-st8 {
+        .title {
+            h2 {
+                font-size: 50px;
+            }
+        }
+        .nav-pills .nav-item .nav-link {
+            font-size: 14px;
+            padding-right: 15px;
+        }
+    }
+}

@@ -1,0 +1,278 @@
+/* --------------- footer st1 --------------- */
+.pricing-page-st1 {
+
+    .pricing-card {
+        position: relative;
+        padding: 45px;
+        background-color: #f6f6f6;
+        margin-top: 50px;
+
+        ul {
+            margin-top: 40px;
+            li {
+                display: flex;
+                margin: 15px 0;
+                font-size: 16px;
+                font-weight: bold;
+                .icon {
+                    font-size: 13px;
+                    margin-inline-end: 15px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+
+    /* --------------- about st21 --------------- */
+    .tc-about-st21 {
+        position: relative;
+        padding: 150px 0;
+        overflow: hidden;
+
+        .title {
+            position: relative;
+            .float-txt {
+                position: absolute;
+                top: 0;
+                right: 0;
+                transform: translateX(33%);
+                line-height: 0.70;
+                font-size: 220px;
+                color: #f6f6f6;
+                font-weight: bold;
+                text-transform: uppercase;
+                pointer-events: none;
+            }
+            .btns {
+                position: relative;
+                z-index: 20;
+                padding: 50px 0;
+            }
+        }
+
+        .rotate-box {
+            position: relative;
+            width: 220px;
+            height: 220px;
+            display: block;
+            z-index: 20;
+            margin-top: 20px;
+            margin-inline-start: -30px;
+
+            .icon {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, - 50%);
+                height: 35px;
+                width: 35px;
+                object-fit: contain;
+            }
+
+            .rotate-text {
+                animation: rotateText 20s linear infinite;
+                font-weight: 300;
+                text-transform: uppercase;
+                position: absolute;
+                left: 0;
+                border-radius: 50%;
+                color: #151515;
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+
+            .rotate-circle svg {
+                width: 220px;
+                height: 220px;
+                fill: #151515;
+                transform: scale(1);
+            }
+
+            @keyframes rotateText {
+                0% {
+                    transform: rotate(360deg);
+                }
+
+                100% {
+                    transform: rotate(0deg);
+                }
+            }
+        }
+
+        .main-img {
+            width: 415px;
+            height: 415px;
+            max-height: 90vw;
+            max-width: 90vw;
+            img {
+                border-radius: 50%;
+            }
+        }
+
+    }
+
+
+    /* --------------- capabilities st5 --------------- */
+    .tc-capabilities-st5 {
+        position: relative;
+        background-color: var(--cr-dark1);
+        overflow: hidden;
+        &::after {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: calc((100vw - 1300px) / 2 );
+            background-color: var(--cr-dark1);
+            z-index: 20;
+        }
+
+        .capabilities-title {
+            position: relative;
+            padding: 100px 50px;
+            background-color: #fff;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            z-index: 20;
+            .number-card {
+                position: relative;
+                margin-top: 40px;
+                width: 166px;
+                height: 172px;
+                padding: 25px;
+                svg {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                .cont {
+                    position: relative;
+                    z-index: 20;
+                    .num {
+                        position: relative;
+                        font-size: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 80px;
+                        height: 80px;
+                        border: 1px solid #9999;
+                        border-radius: 50%;
+                        font-weight: bold;
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 50%;
+                            border-left: 1px solid #000;
+                            border-bottom: 1px solid #000;
+                            border-right: 1px solid transparent;
+                            border-top: 1px solid transparent;
+                            transform: rotate(45deg);
+                        }
+                    }
+                }
+            }
+        }
+
+        .capabilities-slider {
+            position: relative;
+            padding: 100px 0;
+            color: #fff;
+        }
+
+        .capabilities-card {
+            position: relative;
+            padding: 40px 30px;
+            border: 1px solid #fff1;
+            border-radius: 30px;
+            text-wrap: balance;
+            .icon {
+                margin-bottom: 40px;
+            }
+            .text {
+                color: #ababab;
+            }
+        }
+
+    }
+
+    @media screen and (max-width: 991px) {
+        .tc-capabilities-st5 {
+            padding-top: 12px;
+        }
+    }
+
+
+    /* --------------- video st5 --------------- */
+    .tc-video-st5 {
+        position: relative;
+        background-color: var(--cr-dark1);
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            bottom: 0;
+            width: calc((100vw - 1300px) / 2 );
+            height: 120px;
+            background-color: var(--cr-green1);
+        }
+        
+        .video-card {
+            position: relative;
+            height: 750px;
+            overflow: hidden;
+        }
+
+        .play-btn {
+            position: absolute;
+            left: calc(50% - 75px);
+            top: calc(50% - 75px);
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: var(--cr-dark1);
+            color: #fff;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-size: 16px;
+            z-index: 20;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+
+    @media screen and (min-width: 991px) {
+        .tc-video-st5 {
+            padding-inline-start: calc((100vw - 1300px) / 2 );
+        }
+    }
+
+
+    @media screen and (max-width: 991px) {
+        .tc-video-st5 {
+            .video-card {
+                height: 500px;
+            }
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 991px) {
+    .pricing-page-st1 {
+
+    }
+}

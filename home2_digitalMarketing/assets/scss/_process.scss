@@ -1,0 +1,60 @@
+/* --------------- process st2 --------------- */
+.tc-process-st2 {
+    position: relative;
+    padding: 150px 0;
+    overflow: hidden;
+
+    .title-side {
+        position: relative;
+
+        h2 {
+            font-size: 50px;
+            span {
+                color: transparent;
+                -webkit-text-stroke: 1px #151515;
+            }
+        }
+
+        .cont {
+            position: relative;
+            margin-top: 50px;
+            .lg-txt {
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 140px;
+                -webkit-text-stroke: 1px #151515;
+                opacity: 0.1;
+                color: transparent;
+                text-transform: uppercase;
+                line-height: 1;
+            }
+        }
+    
+    }
+
+    .progress-side {
+        .shap-img {
+            width: 40%;
+            margin-inline-start: auto;
+            margin-inline-end: 0;
+        }
+        .progress {
+            height: 4px;
+            .progress-bar {
+                background-color: #151515;
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-process-st2 {
+        .title-side h2 {
+            font-size: 30px;
+        }
+    }
+}

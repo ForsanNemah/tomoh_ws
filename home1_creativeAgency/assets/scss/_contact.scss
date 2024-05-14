@@ -1,0 +1,65 @@
+/* --------------- contact st1 --------------- */
+.tc-contact-st1 {
+    position: relative;
+    padding: 150px 0;
+    background-color: #f6f6f6;
+
+    h2 {
+        font-size: 82px;
+        margin-bottom: 20px;
+    }
+
+    .services-links {
+        a {
+            padding: 10px 35px;
+            transition: all 0.2s ease;
+            position: relative;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 50px;
+            border: 2px solid #151515;
+            margin-top: 10px;
+            margin-inline-end: 10px;
+            &::before {
+                position: absolute;
+                content: "";
+                top: -2px;
+                left: 10%;
+                width: 80%;
+                height: 2px;
+                background-image: linear-gradient(to right, transparent, #fff, transparent);
+            }
+            &::after {
+                position: absolute;
+                content: "";
+                bottom: -2px;
+                left: 10%;
+                width: 80%;
+                height: 2px;
+                background-image: linear-gradient(to right, transparent, #fff, transparent);
+            }
+        
+            &:hover {
+                background-color: #151515;
+                color: #fff;
+                box-shadow: 7px 10px 15px #0004;
+                transform: translateY(-2px);
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-contact-st1 {
+        h2 {
+            font-size: 50px;
+        }
+        .services-links a {
+            padding: 7px 15px;
+            font-size: 13px;
+        }
+    }
+}

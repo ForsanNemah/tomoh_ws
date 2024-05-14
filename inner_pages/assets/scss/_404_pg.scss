@@ -1,0 +1,81 @@
+/* --------------- 404 st1 --------------- */
+.error-page-st1 {
+
+    #scrollsmoother-container {
+        background-image: url(../img/404_bg.jpg);
+        background-size: cover;
+    }
+
+    .foot {
+        position: relative;
+        padding: 30px 0;
+        .foot-links {
+            a {
+                font-size: 16px;
+                margin-inline-start: 30px;
+            }
+        }
+    }
+
+    .tc-404-st22 {
+        .info {
+            padding: 5vw;
+        }
+    }
+
+    .rotate-box {
+        position: relative;
+        width: 220px;
+        height: 220px;
+        display: block;
+
+        .icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, - 50%);
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background-color: #f0f0f0;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .rotate-text {
+            animation: rotateText 20s linear infinite;
+            font-weight: 300;
+            text-transform: uppercase;
+            position: absolute;
+            left: 0;
+            border-radius: 50%;
+            color: #151515;
+        }
+
+        .rotate-circle svg {
+            width: 220px;
+            height: 220px;
+            fill: #000;
+            transform: scale(1);
+        }
+
+        @keyframes rotateText {
+            0% {
+                transform: rotate(360deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .error-page-st1 {
+
+    }
+}

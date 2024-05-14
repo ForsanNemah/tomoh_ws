@@ -1,0 +1,85 @@
+/* --------------- portfolio st4 --------------- */
+.tc-portfolio-st4 {
+    position: relative;
+    padding: 75px 0 150px;
+
+    .nav-pills {
+        justify-content: center;
+        margin-bottom: 50px;
+        .nav-item {
+            position: relative;
+            &:last-of-type {
+                .nav-link {
+                    padding-right: 0;
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+            
+            .nav-link {
+                position: relative;
+                border-radius: 0;
+                background-color: transparent;
+                color: #777;
+                text-transform: capitalize;
+                font-size: 16px;
+                padding-right: 25px;
+                &::after {
+                    position: absolute;
+                    content: "/";
+                    right: 0;
+                    top: 7px;
+                }
+                &.active {
+                    color: #151515;
+                }
+            }
+        }
+    }
+
+    .projects {
+        .project-card {
+            position: relative;
+            background-color: #f6f6f6;
+            display: block;
+            .img {
+                position: relative;
+                padding: 50px 25px 50px 85px;
+                img {
+                    height: 320px;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+            .info-card {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 190px;
+                height: 180px;
+                padding: 30px;
+                background-color: #fff;
+                z-index: 10;
+            }
+            &.shadow-card {
+                box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.05);
+                .info-card {
+                    background-color: #f6f6f6;
+                    box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.05);
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-portfolio-st4 {
+        .projects {
+            .project-card {
+                margin-top: 50px !important;
+            }
+        }
+    }
+}

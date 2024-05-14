@@ -1,0 +1,71 @@
+/* --------------- testimonials st7 --------------- */
+.tc-testimonials-st7 {
+    position: relative;
+    padding: 140px 0;
+    overflow: hidden;
+
+    .testi-slider {
+        position: relative;
+        overflow: hidden;
+        z-index: 20;
+        .swiper-pagination {
+            left: auto;
+            width: max-content;
+            right: 0;
+            bottom: 15px !important;
+        }
+    }
+
+    .testi-card {
+        position: relative;
+        .rate-wrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .icon {
+                height: 30px;
+                margin-inline-end: 40px;
+                position: relative;
+                top: -10px;
+            }
+            .num {
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+        .main-txt {
+            font-size: 24px;
+            font-weight: bold;
+            padding-bottom: 10px;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #9993;
+        }
+    }
+
+    .trans-txt {
+        font-size: 24px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        transform: rotate(90deg) translateX(-100px);
+        white-space: nowrap;
+        // margin: 15px auto;
+        .icon {
+            height: 50px;
+            margin-inline-end: 15px;
+            flex-shrink: 0;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-testimonials-st7 {
+        .testi-card {
+            .main-txt {
+                font-size: 18px;
+            }
+        }
+    }
+}

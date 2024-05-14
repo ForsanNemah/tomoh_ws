@@ -1,0 +1,35 @@
+/* --------------- pricing st4 --------------- */
+.tc-pricing-st4 {
+    position: relative;
+    padding-top: 150px;
+    background-color: #f6f6f6;
+
+    .pricing-card {
+        position: relative;
+        padding: 45px;
+        background-color: #fff;
+        margin-top: 50px;
+
+        ul {
+            margin-top: 40px;
+            li {
+                display: flex;
+                margin: 15px 0;
+                font-size: 16px;
+                font-weight: bold;
+                .icon {
+                    font-size: 13px;
+                    margin-inline-end: 15px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-pricing-st4 {
+
+    }
+}

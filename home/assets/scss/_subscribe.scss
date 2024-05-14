@@ -1,0 +1,68 @@
+/* --------------- subscribe st6 --------------- */
+.tc-subscribe-st6 {
+    position: relative;
+
+    .subscribe-card {
+        position: relative;
+        padding: 130px 5vw;
+        border-radius: 30px;
+        overflow: hidden;
+        border: 1px solid #9993;
+
+        .row {
+            position: relative;
+            z-index: 20;
+        }
+
+        .title {
+            position: relative;
+            h3 {
+                font-size: 32px;
+                margin-bottom: 20px;
+                position: relative;
+                z-index: 10;
+            }
+        }
+
+
+        .form-group {
+            position: relative;
+            button {
+                position: absolute;
+                right: 0;
+                bottom: 15px;
+                font-size: 16px;
+                border: 0;
+                background-color: transparent;
+                transform: rotate(-45deg);
+            }
+        }
+
+        .form-control {
+            padding: 15px 0;
+            border: 0;
+            border-radius: 0;
+            border-bottom: 1px solid #151515;
+            font-size: 16px;
+            background-color: transparent;
+        }
+
+        .shapes {
+            position: absolute;
+            left: 25px;
+            top: 25px;
+            width: calc(100% - 50px);
+            height: calc(100% - 50px);
+            object-fit: cover;
+            pointer-events: none;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-subscribe-st6 {
+
+    }
+}

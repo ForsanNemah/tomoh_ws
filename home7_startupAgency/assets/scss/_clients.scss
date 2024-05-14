@@ -1,0 +1,51 @@
+/* --------------- clients st7 --------------- */
+.tc-clients-st7 {
+    position: relative;
+    padding-top: 140px;
+
+    .vec1 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .title {
+        position: relative;
+        margin-bottom: 20px;
+        .text {
+            position: relative;
+            padding-top: 20px;
+            .vec {
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 20px;
+            }
+        }
+    }
+
+    .cards {
+        .logo {
+            padding: 50px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // background-color: #fff;
+            border: 1px solid #9994;
+            margin-top: 30px;
+            img {
+                height: 30px;
+                max-width: 75%;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-clients-st7 {
+
+    }
+}

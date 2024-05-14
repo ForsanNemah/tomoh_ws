@@ -1,0 +1,79 @@
+/* --------------- pricing st2 --------------- */
+.tc-pricing-st2 {
+    position: relative;
+    padding: 150px 0;
+    background-color: var(--cr-orange1);
+    color: #fff;
+
+    .title {
+        position: relative;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #fff3;
+        p {
+            position: relative;
+            font-size: 16px;
+            // color: #fff;
+            &::after {
+                position: absolute;
+                content: "";
+                right: 0;
+                top: -25px;
+                width: 25px;
+                height: 25px;
+                background-image: url(../img/vec8.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+
+    .price-card {
+        position: relative;
+        display: block;
+        padding: 40px 0;
+        border-bottom: 1px solid #fff3;
+        &:hover {
+            border-color: #fff;
+            .card-title {
+                h6 {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .check-list {
+            li {
+                display: flex;
+                font-size: 16px;
+                margin-bottom: 15px;
+                &:last-of-type {
+                    margin: 0;
+                }
+            }
+        }
+
+        .price {
+            font-size: 32px;
+            small {
+                font-size: 14px;
+                text-decoration: line-through;
+            }
+        }
+
+        .more {
+            font-size: 16px;
+            .arrow {
+                width: 28px;
+                margin-inline-start: 5px;
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-pricing-st2 {
+
+    }
+}

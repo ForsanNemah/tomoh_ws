@@ -1,0 +1,96 @@
+/* --------------- services st4 --------------- */
+.tc-services-st4 {
+    position: relative;
+    padding: 150px 0 55px;
+
+    .services {
+        position: relative;
+        .ser-row {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            &::before {
+                position: absolute;
+                content: "";
+                top: 0;
+                right: 100%;
+                width: calc((100vw - 1300px) / 2 );
+                height: 100%;
+                background-image: linear-gradient(to left, #f6f6f6, transparent);
+            }
+            &::after {
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 100%;
+                width: calc((100vw - 1300px) / 2 );
+                height: 100%;
+                background-image: linear-gradient(to right, #f6f6f6, transparent);
+            }
+            a {
+                &:first-of-type {
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
+                    border-inline-start: 0;
+                }
+                &:last-of-type {
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                    border-inline-end: 0;
+                }
+            }
+            .ser-link {
+                font-size: 24px;
+                font-weight: 600;
+                height: 80px;
+                display: flex;
+                align-items: center;
+                padding: 15px 40px;
+                flex-grow: 1;
+                justify-content: center;
+                border-radius: 80px;
+                background-color: #f6f6f6;
+            }
+            .ser-icon {
+                position: relative;
+                width: 80px;
+                height: 80px;
+                background-color: #f6f6f6;
+                border-radius: 50%;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-services-st4 {
+        padding: 50px 0;
+        .services .ser-row {
+            .ser-link {
+                font-size: 10px;
+                height: 40px;
+                text-align: center;
+                padding: 10px 10px;
+            }
+            .ser-icon {
+                width: 30px;
+                height: 30px;
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+/* --------------- testimonials st1 --------------- */
+.tc-testimonials-st1 {
+    position: relative;
+    background-image: url(../img/testi/testi_bg.png);
+    background-size: cover;
+    color: #fff;
+    &::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.85;
+    }
+
+    .testi-slider {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .user-img {
+        position: relative;
+        padding-top: 30px;
+        height: 100%;
+        width: 120%;
+        margin-left: -10%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: bottom;
+        }
+    }
+
+    .info {
+        position: relative;
+        padding: 150px 0;
+        .lg-txt {
+            font-size: 130px;
+            color: transparent;
+            -webkit-text-stroke: 1px #fff1;
+            text-transform: uppercase;
+            line-height: 0.3;
+            font-weight: bold;
+        }
+    }
+
+    .testi-card {
+        position: relative;
+        margin-top: 30px;
+        .rate-wrapper {
+            display: flex;
+            align-items: center;
+            .icon {
+                height: 30px;
+                margin-inline-end: 40px;
+                position: relative;
+                top: -10px;
+            }
+            .num {
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+        .main-txt {
+            font-size: 32px;
+            font-weight: 300;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #fff2;
+        }
+    }
+
+    .swiper-pagination {
+        text-align: end;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-testimonials-st1 {
+        overflow: hidden;
+        .user-img {
+            display: none;
+        }
+    }
+}

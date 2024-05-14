@@ -1,0 +1,76 @@
+/* --------------- about st8 --------------- */
+.tc-about-st8 {
+    position: relative;
+    padding: 200px 0 140px;
+
+    .rotate-box {
+        position: relative;
+        width: 220px;
+        height: 220px;
+        display: block;
+        z-index: 20;
+        margin-top: 20px;
+        margin-top: -30px;
+
+        .icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, - 50%);
+            height: 35px;
+            width: 35px;
+            object-fit: contain;
+        }
+
+        .rotate-text {
+            animation: rotateText 20s linear infinite;
+            font-weight: 300;
+            text-transform: uppercase;
+            position: absolute;
+            left: 0;
+            border-radius: 50%;
+            color: var(--cr-dark1);
+            font-size: 30px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        .rotate-circle svg {
+            width: 220px;
+            height: 220px;
+            fill: var(--cr-dark1);
+            transform: scale(1);
+        }
+
+        @keyframes rotateText {
+            0% {
+                transform: rotate(360deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+    .img {
+        position: relative;
+        mask-image: url(../img/about_mask.png);
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        overflow: hidden;
+        height: 475px;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-about-st8 {
+        padding: 140px 0;
+        .fsz-80 {
+            font-size: 50px !important;
+            margin-bottom: 50px;
+        }
+    }
+}

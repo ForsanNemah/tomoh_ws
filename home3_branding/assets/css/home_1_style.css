@@ -1,0 +1,28 @@
+/* ========= [ * page-home_1 ]  =========*/
+/* --------------- footer st1 --------------- */
+@media screen and (max-width: 991px) {
+  .home-st1 br {
+    display: none;
+  }
+  .home-st1 .fsz-50 {
+    font-size: 30px !important;
+  }
+  .home-st1 .fsz-45 {
+    font-size: 25px !important;
+  }
+  .home-st1 .fsz-40 {
+    font-size: 25px !important;
+  }
+  .home-st1 .mb-90 {
+    margin-bottom: 40px !important;
+  }
+  .home-st1 .fsz-30 {
+    font-size: 18px !important;
+  }
+  .home-st1 .mb-50 {
+    margin-bottom: 30px !important;
+  }
+  .home-st1 .mt-5 {
+    margin-top: 2rem !important;
+  }
+}

@@ -1,0 +1,62 @@
+/* --------------- capabilities st1 --------------- */
+.tc-capabilities-st1 {
+    position: relative;
+    padding: 150px 0;
+
+    .accordion {
+        position: relative;
+        margin-top: 50px;
+        .accordion-item {
+            border-radius: 0 !important;
+            border: 0;
+            .accordion-button {
+                border: 0;
+                border-radius: 0 !important;
+                background-color: transparent;
+                box-shadow: none;
+                margin: 0;
+                border-bottom: 1px solid #9994;
+                color: #151515;
+                padding: 20px 0;
+                &::after {
+                    display: none;
+                }
+                .arrow {
+                    position: relative;
+                    margin-inline-start: auto;
+                    width: 28px;
+                    opacity: 0.5;
+                }
+                &:not(.collapsed) {
+                    .arrow {
+                        transform: rotate(90deg);
+                        opacity: 1;
+                    }
+                }
+            }
+            .accordion-body {
+                padding: 20px;
+                padding-inline-start: 0;
+                .img {
+                    height: 250px;
+                    margin: -90px 0;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-capabilities-st1 {
+        .accordion {
+            .accordion-item {
+                .accordion-body {
+                    .img {
+                        margin: 20px 0 0;
+                    }
+                }
+            }
+        }
+    }
+}

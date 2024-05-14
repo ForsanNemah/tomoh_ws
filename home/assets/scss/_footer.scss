@@ -1,0 +1,95 @@
+/* --------------- footer st6 --------------- */
+.tc-footer-st6 {
+    position: relative;
+    background-image: url(../img/boxes.png);
+    background-size: contain;
+    object-position: top;
+    background-repeat: repeat;
+
+    .foot-shapes {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 150px;
+    }
+
+    .logo-shap {
+        position: absolute;
+        left: 40px;
+        bottom: 50px;
+        height: calc(100% - 150px);
+    }
+
+    .subscribe {
+        position: relative;
+        padding: 120px 0;
+        border-bottom: 1px solid #9993;
+        h2 {
+            font-size: 120px;
+            text-transform: capitalize;
+        }
+    }
+
+    .links-wrapper {
+        position: relative;
+        padding: 120px 5vw;
+        background-color: #f6f6f6;
+        .contact-links {
+            a {
+                font-size: 32px;
+                font-weight: 500;
+                margin: 5px 0;
+                &:hover {
+                    color: var(--cr-orange1);
+                }
+            }
+        }
+    }
+
+    .links-group {
+        .links {
+            a {
+                font-size: 16px;
+                opacity: 0.6;
+                margin-bottom: 10px;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .inline-links {
+        a {
+            font-size: 16px;
+            font-weight: bold;
+            margin-inline-end: 30px;
+        }
+    }
+
+    .foot {
+        position: relative;
+        padding: 30px 0;
+        background-color: #f6f6f6;
+        color: var(--cr-dark1);
+        .foot-links {
+            a {
+                font-size: 16px;
+                margin-inline-start: 30px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-footer-st6 {
+        .subscribe h2 {
+            font-size: 60px;
+            margin-bottom: 30px;
+        }
+        .foot {
+            text-align: center;
+        }
+    }
+}

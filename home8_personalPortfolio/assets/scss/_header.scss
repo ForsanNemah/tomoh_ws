@@ -1,0 +1,114 @@
+/* --------------- header st8 --------------- */
+.tc-header-st8 {
+    position: relative;
+    background-color: #F8F1EE;
+    overflow: hidden;
+
+    .header-shaps {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: top;
+    }
+
+    .content {
+        margin-bottom: 150px;
+        .mini-img {
+            position: relative;
+            height: 70px;
+            width: 270px;
+            border-radius: 70px;
+            overflow: hidden;
+        }
+    }
+
+    h1 {
+        font-size: 128px;
+        // font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        .text-row {
+            display: flex;
+            align-items: center;
+            &:last-of-type {
+                justify-content: end;
+            }
+            .txt {
+                font-size: 16px;
+                text-transform: capitalize;
+                text-align: end;
+                width: 130px;
+                flex-shrink: 0;
+                line-height: 1.8;
+                margin-inline-start: 5vw;
+            }
+            .shap {
+                height: 30px;
+                margin: 0 30px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .hero-img {
+        position: relative;
+        width: 150%;
+        left: -30%;
+        height: 100%;
+        z-index: 20;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: bottom;
+        }
+    }
+
+    .float-txt {
+        position: absolute;
+        left: 0;
+        bottom: 40px;
+        font-size: 158px;
+        font-weight: 300;
+        line-height: 26px;
+        text-transform: lowercase;
+        color: #1515150d;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-st8 {
+        .content {
+            padding-top: 100px !important;
+            margin-bottom: 50px;
+            h1 {
+                font-size: 25px;
+                .text-row {
+                    display: inline;
+                    .txt {
+                        font-size: 25px;
+                        text-align: start;
+                        text-transform: uppercase;
+                        width: 100%;
+                        margin: 0;
+                        display: inline;
+                    }
+                    .shap {
+                        display: none;
+                    }
+                }
+            }
+            .mt-50 {
+                margin-top: 30px !important;
+            }
+        }
+        .hero-img {
+            width: 100%;
+            left: 0;
+        }
+    }
+}

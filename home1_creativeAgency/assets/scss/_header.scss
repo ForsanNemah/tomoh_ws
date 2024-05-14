@@ -1,0 +1,220 @@
+/* --------------- header st1 --------------- */
+.tc-header-st1 {
+    position: relative;
+    padding: 150px 0 75px;
+
+    .container {
+        position: relative;
+        z-index: 20;
+    }
+
+    .info {
+        padding-top: 50px;
+        h6 {
+            position: relative;
+            font-size: 16px;
+            width: max-content;
+            .vec1 {
+                position: absolute;
+                right: 0;
+                top: 0;
+                transform: translate(70%, -90%);
+                height: 25px;
+            }
+        }
+        h1 {
+            position: relative;
+            font-size: 110px;
+            text-transform: uppercase;
+            margin: 10px 0;
+            .vec2 {
+                height: 130px;
+                margin-inline-start: 30px;
+            }
+        }
+        .numbers-wrapper {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            .sm-img {
+                position: relative;
+                padding: 35px;
+                margin-inline-end: 30px;
+                flex-shrink: 0;
+                .main-img {
+                    height: 100px;
+                    width: 100px;
+                    object-fit: cover;
+                    border-radius: 8px;
+                    overflow: hidden;
+                }
+                span {
+                    &:nth-of-type(1){
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 35px;
+                        height: 35px;
+                        border-right: 2px solid #151515;
+                        border-bottom: 2px solid #151515;
+                    }
+                    &:nth-of-type(2){
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        width: 35px;
+                        height: 35px;
+                        border-left: 2px solid #151515;
+                        border-bottom: 2px solid #151515;
+                    }
+                    &:nth-of-type(3){
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 35px;
+                        height: 35px;
+                        border-right: 2px solid #151515;
+                        border-top: 2px solid #151515;
+                    }
+                    &:nth-of-type(4){
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                        width: 35px;
+                        height: 35px;
+                        border-left: 2px solid #151515;
+                        border-top: 2px solid #151515;
+                    }
+                }
+            }
+            .numbers {
+                display: flex;
+                align-items: center;
+                .num-card {
+                    margin-inline-start: 40px;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+
+    .img {
+        position: relative;
+        .main-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top left;
+            -webkit-mask-image: url(../img/hero_shap.png);
+            mask-image: url(../img/hero_shap.png);
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            mask-size: 100%;
+            border-radius: 30px;
+            overflow: hidden;
+        }
+        .vec4 {
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            z-index: 2;
+            height: 65px;
+            animation-direction: reverse;
+            animation-duration: 20s;
+            animation-delay: -5s;
+        }
+        .vec5 {
+            position: absolute;
+            top: 30px;
+            left: 30%;
+            z-index: 2;
+            height: 85px;
+            animation-duration: 30s;
+        }
+
+        .lg-txt {
+            position: relative;
+            .txt {
+                font-size: 150px;
+                opacity: 0.05;
+                line-height: 0.5;
+            }
+            .vec7 {
+                height: 40px;
+                position: absolute;
+                top: 20px;
+                left: 25%;
+            }
+        }
+    }
+
+    .cir1 {
+        position: absolute;
+        top: 30px;
+        left: calc((100vw - 1400px) / 2 );
+        max-width: 30vw;
+    }
+
+    .vec3 {
+        position: absolute;
+        top: 100px;
+        left: 45%;
+        height: 45px;
+        animation-direction: reverse;
+        animation-duration: 10s;
+    }
+
+    .cir-1-4 {
+        position: absolute;
+        top: -100px;
+        right: 0;
+        max-width: 40vw;
+    }
+
+    .cir-1-2 {
+        position: absolute;
+        bottom: -200px;
+        left: 0;
+        max-width: 40vw;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-st1 {
+        .info {
+            br {
+                display: block;
+            }
+            h1 {
+                font-size: 40px;
+                .vec2 {
+                    height: 40px;
+                }
+            }
+            .vec6 {
+                display: none;
+            }
+            .numbers-wrapper {
+                display: block;
+                .sm-img {
+                    display: inline-block;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        .me-4 {
+            margin-right: 0.5rem!important;
+        }
+        .img .lg-txt {
+            .txt {
+                font-size: 70px;
+                text-align: center;
+                display: block;
+            }
+            .vec7 {
+                display: none;
+            }
+        }
+    }
+}

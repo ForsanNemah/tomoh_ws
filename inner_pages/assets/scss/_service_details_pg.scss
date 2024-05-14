@@ -1,0 +1,120 @@
+/* --------------- footer st1 --------------- */
+.services-page-st1 {
+
+    /* --------------- innerHeader st1 --------------- */
+    .tc-header-st12 {
+        position: relative;
+        padding: 140px 0;
+
+        .title {
+            position: relative;
+            h1 {
+                font-size: 130px;
+                text-transform: uppercase;
+            }
+        }
+
+        .social-links {
+            position: relative;
+            display: flex;
+            margin-top: 60px;
+            a {
+                width: 50px;
+                height: 50px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #222;
+                color: #fff9;
+                border-inline-end: 1px solid #fff2;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+        .plus-list {
+            position: relative;
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                width: 50%;
+                margin: 10px 0;
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+        
+        .lg-txt {
+            position: absolute;
+            top: 160px;
+            right: 0;
+            font-size: 180px;
+            font-weight: bold;
+            opacity: 5%;
+            text-transform: uppercase;
+            line-height: 0.9;
+        }
+
+        .header-shaps {
+            position: absolute;
+            top: 30%;
+            right: 20px;
+            width: 55%;
+            object-fit: contain;
+        }
+
+    }
+
+    @media screen and (max-width: 991px) {
+        .tc-header-st12 {
+            padding: 80px 0;
+            overflow: hidden;
+            .title {
+                h1 {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+
+
+    /* --------------- main info --------------- */
+    .tc-main-info-st12 {
+        .info-list {
+            li {
+                display: flex;
+                margin: 10px 0;
+                font-size: 16px;
+                strong {
+                    min-width: 40%;
+                }
+            }
+        }
+    }
+
+
+
+    /* --------------- features st11 --------------- */
+
+
+
+    /* --------------- services st7 --------------- */
+
+
+
+    /* --------------- testimonials st8 --------------- */
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .services-page-st1 {
+        .icon-200 {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}

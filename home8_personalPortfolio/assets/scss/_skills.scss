@@ -1,0 +1,83 @@
+/* --------------- skills st8 --------------- */
+.tc-skills-st8 {
+    position: relative;
+    padding: 0 3vw;
+    overflow: hidden;
+
+    .section-content {
+        position: relative;
+        padding: 140px 0;
+        background-color: #f6f6f6;
+    }
+
+    .title {
+        position: relative;
+        .vec3 {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+        }
+    }
+
+    .lg-txt {
+        font-size: 140px;
+        -webkit-text-stroke: 1px #9995;
+        color: transparent;
+        text-transform: uppercase;
+        line-height: 1;
+        span {
+            position: relative;
+            margin: 0 -15px;
+            &:nth-of-type(3) {
+                background-image: url(../img/sk_mask.jpg);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size: 270px;
+                margin: 0 -60px;
+                top: 30px;
+            }
+        }
+    }
+
+    .progress-side {
+        .shap-img {
+            width: 40%;
+            margin-inline-start: auto;
+            margin-inline-end: 0;
+        }
+        .progress {
+            height: 4px;
+            .progress-bar {
+                background-color: #151515;
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-skills-st8 {
+        overflow: hidden;
+        .fsz-80 {
+            font-size: 40px !important;
+        }
+        .title .vec3 {
+            display: none;
+        }
+        .lg-txt {
+            font-size: 90px;
+            white-space: nowrap;
+            span {
+                margin: 0 -10px;
+                &:nth-of-type(3) {
+                    font-size: 200px;
+                    margin: 0 -40px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+/* --------------- testimonials st6 --------------- */
+.tc-testimonials-st6 {
+    position: relative;
+    padding: 140px 0;
+
+    .vec1 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .vec2 {
+        position: absolute;
+        bottom: 50px;
+        right: 0;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .testi-slider {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 70px;
+        z-index: 20;
+    }
+
+    .testi-card {
+        position: relative;
+        padding: 50px;
+        border: 1px solid #9993;
+        .rate-wrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .icon {
+                height: 30px;
+                margin-inline-end: 40px;
+                position: relative;
+                top: -10px;
+            }
+            .num {
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+        .main-txt {
+            font-size: 24px;
+            font-weight: bold;
+            padding-bottom: 10px;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #9993;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-testimonials-st6 {
+        .testi-card {
+            .main-txt {
+                font-size: 18px;
+            }
+        }
+    }
+}

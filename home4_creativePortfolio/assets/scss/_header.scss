@@ -1,0 +1,222 @@
+/* --------------- header st4 --------------- */
+.tc-header-st4 {
+    position: relative;
+    display: flex;
+
+    .links {
+        position: relative;
+        width: 130px;
+        flex-shrink: 0;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 20;
+        
+        &>ul {
+            display: flex;
+            flex-direction: column-reverse;
+            padding-bottom: 50px;
+            &>li {
+                margin: 40px 0;
+                &>a {
+                    transform: rotate(-90deg);
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .dropdown-menu {
+            transform: translateY(-45%);
+            left: 100%;
+            top: 0;
+        }
+    }
+
+    .swiper-pagination-fraction {
+        width: 130px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 100;
+        bottom: 0;
+        letter-spacing: -5px;
+    }
+
+    .header-slider {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        .swiper-slide {
+            .header-card {
+                opacity: 0;
+            }
+        }
+        .swiper-slide-active {
+            .header-card {
+                opacity: 1;
+                .info {
+                    transform: translateY(0) !important;
+                }
+                .services-links {
+                    transform: translateY(0) !important;
+                }
+            }
+        }
+        .header-card {
+            position: relative;
+            padding-top: 100px;
+            transition: all 1s ease;
+            &::after {
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: var(--cr-dark1);
+                opacity: 0.5;
+            }
+            .content {
+                position: relative;
+                z-index: 20;
+                padding-inline-start: 5vw;
+                padding-inline-end: calc((100vw - 1320px) / 2);
+                .info {
+                    transform: translateY(-100px);
+                    transition: all 1s ease;
+                    h1 {
+                        font-size: 80px;
+                        color: #fff;
+                    }
+                }
+                .rotate-box {
+                    position: relative;
+                    width: 220px;
+                    height: 220px;
+                    display: block;
+                    z-index: 20;
+                    margin-top: 20px;
+                    margin-top: -30px;
+                    margin-inline-start: auto;
+                    margin-inline-end: 0;
+            
+                    .icon {
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, - 50%);
+                        height: 35px;
+                        width: 35px;
+                        object-fit: contain;
+                    }
+            
+                    .rotate-text {
+                        animation: rotateText 20s linear infinite;
+                        font-weight: 300;
+                        text-transform: uppercase;
+                        position: absolute;
+                        left: 0;
+                        border-radius: 50%;
+                        color: #fff;
+                        font-size: 30px;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                    }
+            
+                    .rotate-circle svg {
+                        width: 220px;
+                        height: 220px;
+                        fill: #fff;
+                        transform: scale(1);
+                    }
+            
+                    @keyframes rotateText {
+                        0% {
+                            transform: rotate(360deg);
+                        }
+            
+                        100% {
+                            transform: rotate(0deg);
+                        }
+                    }
+                }
+            }
+            .bg {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .shap {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .services-links {
+        position: relative;
+        padding: 40px 50px;
+        background-color: var(--cr-green1);
+        border-radius: 30px 30px 0 0;
+        margin-top: -50px;
+        transform: translateY(100px);
+        transition: all 1s ease;
+        a {
+            position: relative;
+            font-size: 32px;
+            font-weight: 600;
+            padding-inline-end: 55px;
+            margin-inline-end: 40px;
+            z-index: 20;
+            &::after {
+                position: absolute;
+                content: "/";
+                right: 0;
+                top: 0;
+            }
+            &:last-of-type {
+                padding-inline-end: 0;
+                margin-inline-end: 0;
+                &::after {
+                    display: none;
+                }
+            }
+        }
+        .bg-circls {
+            position: absolute;
+            left: 5%;
+            top: 5%;
+            width: 90%;
+            height: 90%;
+            object-fit: contain;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-header-st4 {
+        .header-slider .header-card .content {
+            padding: 0 15px !important;
+            .info h1 {
+                font-size: 40px;
+            }
+        }
+        .services-links {
+            padding: 30px;
+            margin-top: 0;
+            a {
+                font-size: 16px;
+                padding-inline-end: 30px;
+                margin-inline-end: 20px;
+            }
+        }
+    }
+}

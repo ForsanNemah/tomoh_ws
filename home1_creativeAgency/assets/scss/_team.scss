@@ -1,0 +1,72 @@
+/* --------------- team st1 --------------- */
+.tc-team-st1 {
+    position: relative;
+    padding: 150px 0;
+
+    .team-card {
+        position: relative;
+        background-color: #fff;
+        box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.05);
+        margin-top: 80px;
+        
+        .img {
+            position: relative;
+            height: 300px;
+            padding-inline-start: 30px;
+            margin-top: -30px;
+            .social-icons {
+                position: absolute;
+                width: 50px;
+                right: 30px;
+                bottom: -25px;
+                transition: all 0.3s ease;
+                .link {
+                    position: relative;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 1px;
+                    background-color: var(--cr-orange1);
+                    color: #fff;
+                    &:hover {
+                        background-color: #000;
+                    }
+                    &:not(.plus-link) {
+                        margin-bottom: -50px;
+                        opacity: 0;
+                    }
+                    &.plus-link {
+                        z-index: 10;
+                    }
+                }
+            }
+        }
+        .info {
+            padding: 40px 30px;
+        }
+
+        &:hover {
+            .img {
+                .social-icons {
+                    margin-bottom: -50px;
+                    .link {
+                        margin-bottom: 0 !important;
+                        opacity: 1 !important;
+                        &.plus-link {
+                            opacity: 0 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-team-st1 {
+
+    }
+}

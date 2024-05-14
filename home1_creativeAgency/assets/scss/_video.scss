@@ -1,0 +1,49 @@
+/* --------------- video st1 --------------- */
+.tc-video-st1 {
+    position: relative;
+    padding: 75px 3vw;
+
+    .video-card {
+        position: relative;
+        .img {
+            position: relative;
+            height: 700px;
+            overflow: hidden;
+            &::after {
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #000;
+                opacity: 0.5;
+            }
+        }
+        .play-btn {
+            position: absolute;
+            top: calc(50% - 75px);
+            left: calc(50% - 75px);
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            z-index: 2;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .tc-video-st1 {
+        .video-card .img {
+            height: 350px;
+        }
+    }
+}
