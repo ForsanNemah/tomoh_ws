@@ -8,7 +8,7 @@ include('includes/header.php');
 
 ?>
 
-<body class="home-st6">
+<body class="home-st6" dir="rtl">
 
 
     <!--  start cursor  -->

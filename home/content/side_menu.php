@@ -1,6 +1,6 @@
 <div class="side_overlay"></div>
 <div class="side_overlay2"></div>
-<div class="side_menu">
+<div class="side_menu" dir="ltr">
     <div class="content">
         <div class="row">
             <div class="col-lg-6">
@@ -19,7 +19,7 @@
                 <div class="menu-info justify-content-lg-center align-items-lg-center text-lg-center mt-5 mt-lg-0">
                     <div class="cont">
                         <a href="#" class="logo">
-                            <img src="assets/img/logo.png" alt="">
+                            <img src="assets/img/logo.jpeg" alt="">
                         </a>
                         <div class="social_links">
                             <a href="#"> <i class="fab fa-facebook-f"></i> </a>

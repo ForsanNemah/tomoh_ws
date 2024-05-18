@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
     <!-- Title  -->
-    <title>Artech</title>
+    <title>طموح الأعمار والتسويق الإلكتروني </title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/fav.png" title="Favicon" sizes="16x16">
