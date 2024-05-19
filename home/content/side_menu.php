@@ -19,7 +19,7 @@
                 <div class="menu-info justify-content-lg-center align-items-lg-center text-lg-center mt-5 mt-lg-0">
                     <div class="cont">
                         <a href="#" class="logo">
-                            <img src="assets/img/logo.jpeg" alt="">
+                            <img src="assets/img/logo.png" alt="" width="150" height="150">
                         </a>
                         <div class="social_links">
                             <a href="#"> <i class="fab fa-facebook-f"></i> </a>

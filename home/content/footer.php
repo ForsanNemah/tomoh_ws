@@ -16,7 +16,7 @@
                <div class="row">
                    <div class="col-lg-5">
                        <div class="logo-side">
-                           <a href="#" class="logo"> <img src="assets/img/Logo.svg" alt=""> </a>
+                           <a href="#" class="logo"> <img src="assets/img/logo.png" alt="" width="150" height="150"> </a>
                            <div class="links-group mt-30">
                                <ul class="links">
                                    <li> <a href="#"> Copyright: © 2024 by <b class="cr-000"> ThemesCamp </b>. </a> </li>
