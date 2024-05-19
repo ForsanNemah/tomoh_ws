@@ -6,12 +6,12 @@
             <div class="col-lg-6">
                 <div class="main_links">
                     <ul>
-                        <li> <a href="../home/index.html" class="main_link"> home </a> </li>
-                        <li><a href="../inner_pages/about.php" class="main_link"> About us </a></li>
-                        <li> <a href="../inner_pages/services.php" class="main_link"> Services </a> </li>
-                        <li> <a href="../inner_pages/portfolio.php" class="main_link"> Portfolio </a> </li>
-                        <li> <a href="../inner_pages/blog.php" class="main_link"> Blog </a> </li>
-                        <li> <a href="../inner_pages/contact.php" class="main_link"> Contact </a> </li>
+                        <li> <a href="../home1_creativeAgency/index.html" class="main_link"> home </a> </li>
+                        <li><a href="../inner_pages/about.html" class="main_link"> About us </a></li>
+                        <li> <a href="../inner_pages/services.html" class="main_link"> Services </a> </li>
+                        <li> <a href="../inner_pages/portfolio.html" class="main_link"> Portfolio </a> </li>
+                        <li> <a href="../inner_pages/blog.html" class="main_link"> Blog </a> </li>
+                        <li> <a href="../inner_pages/contact.html" class="main_link"> Contact </a> </li>
                     </ul>
                 </div>
             </div>
@@ -29,7 +29,8 @@
                         </div>
                         <ul class="contact-links">
                             <li> <a href="#"> <span class="icon me-3"> <i class="fal fa-phone"></i> </span> <span class="txt"> +00 123 456 7897 </span> </a> </li>
-                            <li> <a href="#"> <span class="icon me-3"> <i class="fal fa-envelope-open"></i> </span> <span class="txt"> info@artech.com </span> </a> </li>
+                            <li> <a href="#"> <span class="icon me-3"> <i class="fal fa-envelope-open"></i> </span>
+                                    <span class="txt"> info@artech.com </span> </a> </li>
                         </ul>
                     </div>
                 </div>

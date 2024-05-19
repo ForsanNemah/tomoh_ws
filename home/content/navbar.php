@@ -28,24 +28,24 @@
                             Pages
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="../inner_pages/about.html">About Page</a></li>
-                            <li><a class="dropdown-item" href="../inner_pages/blog.html">blog Page</a></li>
-                            <li><a class="dropdown-item" href="../inner_pages/career_single.html">career single Page</a></li>
-                            <li><a class="dropdown-item" href="../inner_pages/careers.html">careers Page</a></li>
-                            <li><a class="dropdown-item" href="../inner_pages/contact.html">contact Page</a></li>
-                            <li><a class="dropdown-item" href="../inner_pages/faq.html">faq Page</a></li>
-                            <li><a class="dropdown-item" href="../inner_pages/portfolio.html">portfolio Page</a></li>
-                            <li><a class="dropdown-item" href="../inner_pages/post.html">post Page</a></li>
-                            <li><a class="dropdown-item" href="../inner_pages/pricing.html">pricing Page</a></li>
-                            <li><a class="dropdown-item" href="../inner_pages/project.html">project Page</a></li>
-                            <li><a class="dropdown-item" href="../inner_pages/404.html">404 Page</a></li>
+                            <li><a class="dropdown-item" href="../inner_pages/about.php">About Page</a></li>
+                            <li><a class="dropdown-item" href="../inner_pages/blog.php">blog Page</a></li>
+                            <li><a class="dropdown-item" href="../inner_pages/career_single.php">career single Page</a></li>
+                            <li><a class="dropdown-item" href="../inner_pages/careers.php">careers Page</a></li>
+                            <li><a class="dropdown-item" href="../inner_pages/contact.php">contact Page</a></li>
+                            <li><a class="dropdown-item" href="../inner_pages/faq.php">faq Page</a></li>
+                            <li><a class="dropdown-item" href="../inner_pages/portfolio.php">portfolio Page</a></li>
+                            <li><a class="dropdown-item" href="../inner_pages/post.php">post Page</a></li>
+                            <li><a class="dropdown-item" href="../inner_pages/pricing.php">pricing Page</a></li>
+                            <li><a class="dropdown-item" href="../inner_pages/project.php">project Page</a></li>
+                            <li><a class="dropdown-item" href="../inner_pages/404.php">404 Page</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../inner_pages/portfolio.html">portfolio</a>
+                        <a class="nav-link" href="../inner_pages/portfolio.php">portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../inner_pages/contact.html">contact</a>
+                        <a class="nav-link" href="../inner_pages/contact.php">contact</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
