@@ -106,32 +106,39 @@ include('inc/header.php');
                 <div class="slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <h6 class="item fsz-24"> Brand Design </h6>
+                            <h6 class="item fsz-24"> إدارة حسابات السوشال ميديا</h6>
                         </div>
                         <div class="swiper-slide">
-                            <h6 class="item fsz-24"> Brand Design </h6>
+                            <h6 class="item fsz-24"> إطلاق الحملات الممولة</h6>
                         </div>
                         <div class="swiper-slide">
-                            <h6 class="item fsz-24"> Brand Design </h6>
+                            <h6 class="item fsz-24"> برنامج التسويق عبر وسناب</h6>
                         </div>
                         <div class="swiper-slide">
-                            <h6 class="item fsz-24"> Brand Design </h6>
+                            <h6 class="item fsz-24"> خدمة وتساب شات بوت</h6>
+                        </div>
+                        <div class="swiper-slide">
+                            <h6 class="item fsz-24"> برمجة تطبيقات الموبايل</h6>
                         </div>
                     </div>
                 </div>
                 <div class="slider" dir="rtl">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <h6 class="item fsz-24"> Brand Design </h6>
+                            <h6 class="item fsz-24"> الربط البرمجي مع وتساب whatsapp api</h6>
                         </div>
                         <div class="swiper-slide">
-                            <h6 class="item fsz-24"> Brand Design </h6>
+                            <h6 class="item fsz-24"> برنامج التسويق عبر الإيميل</h6>
                         </div>
                         <div class="swiper-slide">
-                            <h6 class="item fsz-24"> Brand Design </h6>
+                            <h6 class="item fsz-24"> برمجة المواقع الإلكترونية</h6>
                         </div>
                         <div class="swiper-slide">
-                            <h6 class="item fsz-24"> Brand Design </h6>
+                            <h6 class="item fsz-24"> برمجة صفحات الهبوط</h6>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <h6 class="item fsz-24"> برمجة وإنشاء المتاجر الإلكترونية</h6>
                         </div>
                     </div>
                 </div>
@@ -140,82 +147,125 @@ include('inc/header.php');
 
 
             <!--  Start features  -->
-            <section class="tc-features-st11">
+            <section class="tc-features-st11" dir="rtl">
                 <div class="container">
                     <div class="cards wow fadeIn slow" data-wow-delay="0.2s">
                         <div class="row">
                             <div class="col-lg-3">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
-                                        <img src="assets/img/services_page/icons/f1.svg" alt="">
+                                        <!-- <img src="assets/img/services_page/icons/f1.svg" alt=""> -->
+
+                                        <img src="assets/img/services/1.jpeg" alt="">
+
                                     </div>
-                                    <h6 class="title fsz-24"> Digital Product Design </h6>
-                                    <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div>
+                                    <h6 class="title fsz-24"> إدارة حسابات السوشال ميديا</h6>
+                                    <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
                             <div class="col-lg-3">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
-                                        <img src="assets/img/services_page/icons/f2.svg" alt="">
+                                        <!-- <img src="assets/img/services_page/icons/f2.svg" alt=""> -->
+                                        <img src="assets/img/services/2.jpeg" alt="">
+
                                     </div>
-                                    <h6 class="title fsz-24"> Architectural <br> Design </h6>
-                                    <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div>
+                                    <h6 class="title fsz-24"> إطلاق الحملات<br> الممولة </h6>
+                                    <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
                             <div class="col-lg-3">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
-                                        <img src="assets/img/services_page/icons/f3.svg" alt="">
+                                        <!-- <img src="assets/img/services_page/icons/f3.svg" alt=""> -->
+                                        <img src="assets/img/services/3.jpeg" alt="">
+
                                     </div>
-                                    <h6 class="title fsz-24"> Branding <br> Design </h6>
-                                    <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div>
+                                    <h6 class="title fsz-24"> برمجة المواقع<br> الإلكترونية </h6>
+                                    <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
                             <div class="col-lg-3">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
-                                        <img src="assets/img/services_page/icons/f4.svg" alt="">
+                                        <!-- <img src="assets/img/services_page/icons/f4.svg" alt=""> -->
+                                        <img src="assets/img/services/4.jpeg" alt="">
+
                                     </div>
-                                    <h6 class="title fsz-24"> Logo & Trademark Design </h6>
-                                    <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div>
+                                    <h6 class="title fsz-24"> برنامج التسويق عبر واتساب</h6>
+                                    <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
                             <div class="col-lg-3">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
-                                        <img src="assets/img/services_page/icons/f5.svg" alt="">
+                                        <!-- <img src="assets/img/services_page/icons/f5.svg" alt=""> -->
+                                        <img src="assets/img/services/5.jpeg" alt="">
+
                                     </div>
-                                    <h6 class="title fsz-24"> Art Direction Wireframe </h6>
-                                    <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div>
+                                    <h6 class="title fsz-24"> برنامج التسويق عبر الإيميل</h6>
+                                    <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
                             <div class="col-lg-3">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
-                                        <img src="assets/img/services_page/icons/f6.svg" alt="">
+                                        <!-- <img src="assets/img/services_page/icons/f6.svg" alt=""> -->
+                                        <img src="assets/img/services/6.jpeg" alt="">
                                     </div>
-                                    <h6 class="title fsz-24"> Application Development </h6>
-                                    <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div>
+                                    <h6 class="title fsz-24"> برمجة وإنشاء المتاجر </br>الإلكترونية
+                                    </h6>
+                                    <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
                             <div class="col-lg-3">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
-                                        <img src="assets/img/services_page/icons/f7.svg" alt="">
+                                        <!-- <img src="assets/img/services_page/icons/f7.svg" alt=""> -->
+                                        <img src="assets/img/services/7.jpeg" alt="">
+
                                     </div>
-                                    <h6 class="title fsz-24"> Digital Product Design </h6>
-                                    <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div>
+                                    <h6 class="title fsz-24"> برمجة صفحات الهبط</h6>
+                                    <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
                             <div class="col-lg-3">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
-                                        <img src="assets/img/services_page/icons/f8.svg" alt="">
+                                        <!-- <img src="assets/img/services_page/icons/f8.svg" alt=""> -->
+                                        <img src="assets/img/services/8.jpeg" alt="">
                                     </div>
-                                    <h6 class="title fsz-24"> SEO Optimization Service </h6>
-                                    <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div>
+                                    <h6 class="title fsz-24"> الربط البرمجي مع </br>واتساب
+                                    </h6>
+                                    <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
+
+                            <div class="col-lg-3"></div>
+                            <div class="col-lg-3">
+                                <a href="#" class="feat-card">
+                                    <div class="icon">
+                                        <!-- <img src="assets/img/services_page/icons/f8.svg" alt=""> -->
+                                        <img src="assets/img/services/9.jpeg" alt="">
+                                    </div>
+                                    <h6 class="title fsz-24"> خدمة واتساب </br>شات بوت
+                                    </h6>
+                                    <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
+                                </a>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <a href="#" class="feat-card">
+                                    <div class="icon">
+                                        <!-- <img src="assets/img/services_page/icons/f8.svg" alt=""> -->
+                                        <img src="assets/img/services/10.jpeg" alt="">
+                                    </div>
+                                    <h6 class="title fsz-24"> برمجة تطبيقات الموبايل
+                                    </h6>
+                                    <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
+                                </a>
+                            </div>
+
                         </div>
                     </div>
                 </div>

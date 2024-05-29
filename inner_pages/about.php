@@ -57,10 +57,11 @@ include('inc/header.php');
 
 
         <!--  Start innerHeader  -->
-        <header class="tc-innerHeader-st1">
+        <header class="tc-innerHeader-st1 " dir="rtl">
             <div class="container">
                 <div class="title col-lg-7">
-                    <h1 class="fsz-50 text-capitalize"> We are a digital agency for visually compelling about stories artech. </h1>
+                    <h1 class="fsz-50 text-capitalize">
+                        من نحن</h1>
                 </div>
                 <div class="info mt-30">
                     <div class="row">
@@ -70,7 +71,15 @@ include('inc/header.php');
                             </div>
                         </div>
                         <div class="col-lg-5">
-                            <div class="text fsz-16 cr-777 mt-50"> Nunc nec semper arcu, id malesuada est. Integer sodales, magna ac porta ultricies, tortor sapien malesuada dui, sit amet vestibulum magna dui et odio. Donec eu urna vitae orci lacinia malesuada. Duis convallis nunc mi, eu euismod velit cursus vitae. Cras egestas quis dui a dignissim. Nunc ultricies mi quis tristique dapibus. </div>
+                            <div class="text fsz-18 cr-777 mt-50">
+                                شركة قمة الانتشار هي شركة رائدة في مجال التسويق الإلكتروني والترويج الرقمي، تعتمد على الأسس العالمية في تسويق العلامات التجارية عبر الإنترنت وفق خطط عملية مدروسة وتوافق الواقع وتحقق الأهداف بأفضل الطرق الإلكترونية المتوفرة بهدف مساعدة الشركات والمؤسسات في الوصول إلى جمهورهم المستهدف عبر الوسائل الرقية المختلفة.
+                                </br>
+                                شركة قمة الانتشار تضم فريق من المبدعين في التسويق الإلكتروني وتصميم المواقع واشهار العلامات التجارية متخصصين في صناعة وإدارة وتسويق علامتك التجارية من البداية حتى النهاية.
+                                </br>
+                                يتمحور هدفنا الرئيسي حول تعزيز وجود العلامات التجارية في الفضاء الرقمي وتحقيق أقصى استفادة من الفرص المتاحة في السوق الإلكتروني، من خلال استراتيجيات مبتكرة وتنفيذ دقيق، نساعد عملائنا في الوصول إلى جمهورهم المستهدف وزيادة المبيعات.
+                                </br>
+                                إننا فخورون بسجل إنجازاتنا المتميز وبالشراكات القوية التي نقيمها مع العملاء من مختلف القطاعات، ملتزمون بتقديم أفضل الحلول التسويقية الرقمية وتحقيق النجاح لشركائنا.
+                            </div>
                         </div>
                         <div class="col-lg-4">
                             <a href="https://www.youtube.com/watch?v=qYgdnM3BC3g" data-lity="video" class="rotate-box mb-2 mt-5 mt-lg-0" data-speed="1" data-lag="0.4">

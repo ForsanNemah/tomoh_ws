@@ -11,7 +11,7 @@
     <title>طموح الأعمار والتسويق الإلكتروني </title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/fav.png" title="Favicon" sizes="16x16">
+    <link rel="shortcut icon" href="assets/img/logo.png" title="Favicon" sizes="16x16">
 
     <!-- bootstrap 5 -->
     <link rel="stylesheet" href="../common/assets/css/lib/bootstrap.min.css">
@@ -20,7 +20,9 @@
     <!-- <link rel="stylesheet" href="../common/assets/css/lib/bootstrap.rtl.min.css"> -->
 
     <!-- font family -->
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=swap" rel="stylesheet"> -->
+
+    <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
 
     <!-- fontawesome icons  -->
     <link rel="stylesheet" href="../common/assets/css/lib/all.css">
@@ -39,4 +41,10 @@
 
     <!-- home style -->
     <link rel="stylesheet" href="assets/css/inner_pages.css">
+    <style>
+        body {
+            font-family: 'Tajawal';
+            font-size: 22px;
+        }
+    </style>
 </head>
