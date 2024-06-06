@@ -59,7 +59,7 @@ include('inc/header.php');
         <!--  Start header  -->
         <header class="tc-header-st14">
             <div class="container">
-                <h1 class="col-lg-5 mx-auto"> Team Members </h1>
+                <h1 class="col-lg-5 mx-auto"> شركاء النجاح</h1>
             </div>
         </header>
         <!--  End header  -->
@@ -73,7 +73,7 @@ include('inc/header.php');
                 <div class="container">
                     <div class="cards wow fadeIn slow" data-wow-delay="0.2s">
                         <div class="row">
-                            <div class="col-lg-3">
+                            <div class="col-lg-4">
                                 <div class="team-card">
                                     <div class="img">
 
@@ -81,13 +81,13 @@ include('inc/header.php');
 
                                         <img src="assets/img/team/WhatsApp Image 2024-05-22 at 9.14.06 PM (2).jpeg" alt="" class="img-cover">
 
-                                        <div class="social-icons">
+                                        <!-- <div class="social-icons">
                                             <a href="#" class="link"> <i class="fab fa-facebook-f"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-x-twitter"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-linkedin-in"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-instagram"></i> </a>
                                             <a href="#" class="link bg-000 plus-link"> <i class="far fa-plus"></i> </a>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <!-- <div class="info">
                                         <p class="fsz-16 cr-777 mb-2"> Web Developer </p>
@@ -95,20 +95,20 @@ include('inc/header.php');
                                     </div> -->
                                 </div>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-4">
                                 <div class="team-card">
                                     <div class="img">
                                         <!-- <img src="assets/img/team/6.jpg" alt="" class="img-cover"> -->
                                         <img src="assets/img/team/WhatsApp Image 2024-05-22 at 9.14.06 PM.jpeg" alt="" class="img-cover">
 
 
-                                        <div class="social-icons">
+                                        <!-- <div class="social-icons">
                                             <a href="#" class="link"> <i class="fab fa-facebook-f"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-x-twitter"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-linkedin-in"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-instagram"></i> </a>
                                             <a href="#" class="link bg-000 plus-link"> <i class="far fa-plus"></i> </a>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <!-- <div class="info">
                                         <p class="fsz-16 cr-777 mb-2"> Branding Design </p>
@@ -116,7 +116,7 @@ include('inc/header.php');
                                     </div> -->
                                 </div>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-4">
                                 <div class="team-card">
                                     <div class="img">
                                         <!-- <img src="assets/img/team/7.jpg" alt="" class="img-cover"> -->
@@ -124,13 +124,13 @@ include('inc/header.php');
                                         <img src="assets/img/team/WhatsApp Image 2024-05-22 at 9.14.07 PM (1).jpeg" alt="" class="img-cover">
 
 
-                                        <div class="social-icons">
+                                        <!-- <div class="social-icons">
                                             <a href="#" class="link"> <i class="fab fa-facebook-f"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-x-twitter"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-linkedin-in"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-instagram"></i> </a>
                                             <a href="#" class="link bg-000 plus-link"> <i class="far fa-plus"></i> </a>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <!-- <div class="info">
                                         <p class="fsz-16 cr-777 mb-2"> Digital Product </p>
@@ -138,20 +138,22 @@ include('inc/header.php');
                                     </div> -->
                                 </div>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-2">
+                            </div>
+                            <div class="col-lg-4">
                                 <div class="team-card">
                                     <div class="img">
                                         <!-- <img src="assets/img/team/8.jpg" alt="" class="img-cover"> -->
 
                                         <img src="assets/img/team/WhatsApp Image 2024-05-22 at 9.14.07 PM.jpeg" alt="" class="img-cover">
 
-                                        <div class="social-icons">
+                                        <!-- <div class="social-icons">
                                             <a href="#" class="link"> <i class="fab fa-facebook-f"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-x-twitter"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-linkedin-in"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-instagram"></i> </a>
                                             <a href="#" class="link bg-000 plus-link"> <i class="far fa-plus"></i> </a>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <!-- <div class="info">
                                         <p class="fsz-16 cr-777 mb-2"> UX - UI Designer </p>
@@ -161,24 +163,24 @@ include('inc/header.php');
                             </div>
 
 
-                            <div class="col-lg-5">
-                            </div>
 
-                            <div class="col-lg-3">
+
+                            <div class="col-lg-4">
                                 <div class="team-card">
                                     <div class="img">
                                         <!-- <img src="assets/img/team/9.jpg" alt="" class="img-cover"> -->
 
                                         <img src="assets/img/team/WhatsApp Image 2024-05-22 at 9.14.06 PM (1).jpeg" alt="" class="img-cover">
 
-                                        <div class="social-icons">
+                                        <!-- <div class="social-icons">
                                             <a href="#" class="link"> <i class="fab fa-facebook-f"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-x-twitter"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-linkedin-in"></i> </a>
                                             <a href="#" class="link"> <i class="fab fa-instagram"></i> </a>
                                             <a href="#" class="link bg-000 plus-link"> <i class="far fa-plus"></i> </a>
-                                        </div>
+                                        </div> -->
                                     </div>
+
                                     <!-- <div class="info">
                                         <p class="fsz-16 cr-777 mb-2"> UX - UI Designer </p>
                                         <h6 class="fsz-24 fw-500 text-capitalize"> Ursel Urbane </h6>

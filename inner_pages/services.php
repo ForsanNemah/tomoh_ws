@@ -60,9 +60,9 @@ include('inc/header.php');
         <header class="tc-header-st11">
             <div class=" container">
                 <div class="title col-lg-7">
-                    <h1 class="fsz-50 text-capitalize"> We are a digital agency for visually compelling about stories artech. </h1>
+                    <!-- <h1 class="fsz-50 text-capitalize"> We are a digital agency for visually compelling about stories artech. </h1> -->
                 </div>
-                <div class="info mt-30">
+                <!-- <div class="info mt-30">
                     <div class="row">
                         <div class="col-lg-5 offset-lg-3">
                             <div class="text fsz-16 cr-777"> Nunc nec semper arcu, id malesuada est. Integer sodales, magna ac porta ultricies, tortor sapien malesuada dui, sit amet vestibulum magna dui et odio. Donec eu urna vitae orci lacinia malesuada. Duis convallis nunc mi, eu euismod velit cursus vitae. Cras egestas quis dui a dignissim. Nunc ultricies mi quis tristique dapibus. </div>
@@ -87,10 +87,10 @@ include('inc/header.php');
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
-            <span class="lg-txt sub-font"> servic </span>
-            <img src="assets/img/services_page/head2.jpg" alt="" class="float-img">
+            <span class="lg-txt sub-font"> خدماتنا </span>
+            <!-- <img src="assets/img/services_page/head2.jpg" alt="" class="float-img"> -->
             <img src="assets/img/header_shaps.png" alt="" class="header-shaps">
         </header>
         <!--  End header  -->
@@ -142,6 +142,8 @@ include('inc/header.php');
                         </div>
                     </div>
                 </div>
+
+
             </section>
             <!--  End marq-sliders  -->
 
@@ -151,7 +153,7 @@ include('inc/header.php');
                 <div class="container">
                     <div class="cards wow fadeIn slow" data-wow-delay="0.2s">
                         <div class="row">
-                            <div class="col-lg-3">
+                            <div class="col-lg-4 text-center">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
                                         <!-- <img src="assets/img/services_page/icons/f1.svg" alt=""> -->
@@ -163,7 +165,7 @@ include('inc/header.php');
                                     <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-4 text-center">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
                                         <!-- <img src="assets/img/services_page/icons/f2.svg" alt=""> -->
@@ -174,7 +176,7 @@ include('inc/header.php');
                                     <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-4 text-center">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
                                         <!-- <img src="assets/img/services_page/icons/f3.svg" alt=""> -->
@@ -185,7 +187,7 @@ include('inc/header.php');
                                     <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-4 text-center">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
                                         <!-- <img src="assets/img/services_page/icons/f4.svg" alt=""> -->
@@ -196,7 +198,7 @@ include('inc/header.php');
                                     <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-4 text-center">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
                                         <!-- <img src="assets/img/services_page/icons/f5.svg" alt=""> -->
@@ -207,7 +209,7 @@ include('inc/header.php');
                                     <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-4 text-center">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
                                         <!-- <img src="assets/img/services_page/icons/f6.svg" alt=""> -->
@@ -218,7 +220,7 @@ include('inc/header.php');
                                     <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-4 text-center">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
                                         <!-- <img src="assets/img/services_page/icons/f7.svg" alt=""> -->
@@ -229,7 +231,7 @@ include('inc/header.php');
                                     <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-4 text-center">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
                                         <!-- <img src="assets/img/services_page/icons/f8.svg" alt=""> -->
@@ -241,8 +243,7 @@ include('inc/header.php');
                                 </a>
                             </div>
 
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-4 text-center">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
                                         <!-- <img src="assets/img/services_page/icons/f8.svg" alt=""> -->
@@ -253,8 +254,9 @@ include('inc/header.php');
                                     <!-- <div class="text fsz-16 cr-777 mt-20"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                                 </a>
                             </div>
+                            <div class="col-lg-4"></div>
 
-                            <div class="col-lg-3">
+                            <div class="col-lg-4 text-center">
                                 <a href="#" class="feat-card">
                                     <div class="icon">
                                         <!-- <img src="assets/img/services_page/icons/f8.svg" alt=""> -->
@@ -274,7 +276,7 @@ include('inc/header.php');
 
 
             <!--  Start services  -->
-            <section class="tc-services-st7">
+            <!-- <section class="tc-services-st7">
                 <div class="container">
                     <div class="title text-center mb-50 wow fadeIn slow" data-wow-delay="0.2s">
                         <div class="row justify-content-center">
@@ -332,12 +334,12 @@ include('inc/header.php');
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!--  End services  -->
 
 
             <!--  Start goals  -->
-            <section class="tc-goals-st1 pt-150">
+            <!-- <section class="tc-goals-st1 pt-150">
                 <div class="container wow fadeIn slow" data-wow-delay="0.2s">
                     <div class="row">
                         <div class="col-lg-9">
@@ -369,12 +371,12 @@ include('inc/header.php');
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!--  End goals  -->
 
 
             <!--  Start testimonials  -->
-            <section class="tc-testimonials-st8">
+            <!-- <section class="tc-testimonials-st8">
                 <div class="container">
                     <div class="title text-center mb-50 wow fadeIn slow" data-wow-delay="0.2s">
                         <div class="row justify-content-center">
@@ -468,12 +470,12 @@ include('inc/header.php');
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!--  End testimonials  -->
 
 
             <!--  Start section  -->
-            <section class="tc-team-st11">
+            <!-- <section class="tc-team-st11">
                 <div class="cards wow fadeIn slow" data-wow-delay="0.2s">
                     <div class="row">
                         <div class="col-lg-3">
@@ -550,7 +552,7 @@ include('inc/header.php');
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!--  End section  -->
 
 

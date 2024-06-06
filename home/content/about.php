@@ -1,12 +1,12 @@
     <section class="tc-about-st6">
         <div class="container">
-            <div class="services-links wow fadeIn slow" data-wow-delay="0.2s">
+            <!-- <div class="services-links wow fadeIn slow" data-wow-delay="0.2s">
                 <a href="#"> Web Solutions <small class="num"> 32 </small> <span class="dash"> / </span> </a>
                 <a href="#"> Branding strategy <small class="num"> 16 </small> <span class="dash"> / </span> </a>
                 <a href="#"> Digital Solutions <small class="num"> 28 </small> <span class="dash"> / </span> </a>
                 <a href="#"> UX/UI Design <small class="num"> 32 </small> <span class="dash"> / </span> </a>
                 <a href="#"> Typography <small class="num"> 32 </small> <span class="dash"> / </span> </a>
-            </div>
+            </div> -->
             <div class="main-content wow fadeIn slow" data-wow-delay="0.2s">
                 <div class="title">
                     <div class="row justify-content-between align-items-center">

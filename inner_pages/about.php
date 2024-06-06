@@ -81,7 +81,7 @@ include('inc/header.php');
                                 إننا فخورون بسجل إنجازاتنا المتميز وبالشراكات القوية التي نقيمها مع العملاء من مختلف القطاعات، ملتزمون بتقديم أفضل الحلول التسويقية الرقمية وتحقيق النجاح لشركائنا.
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <!-- <div class="col-lg-4">
                             <a href="https://www.youtube.com/watch?v=qYgdnM3BC3g" data-lity="video" class="rotate-box mb-2 mt-5 mt-lg-0" data-speed="1" data-lag="0.4">
                                 <div class="rotate-circle fsz-30 rotate-text d-inline-block text-uppercase">
                                     <svg class="textcircle" viewBox="0 0 500 500">
@@ -96,11 +96,11 @@ include('inc/header.php');
                                 </div>
                                 <span class="icon"> <i class="fas fa-play"></i> </span>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
-            <span class="lg-txt sub-font"> about </span>
+            <span class="lg-txt sub-font"> عن الموقع </span>
             <img src="assets/img/header_shaps.png" alt="" class="header-shaps">
         </header>
         <!--  End innerHeader  -->
@@ -111,7 +111,7 @@ include('inc/header.php');
 
 
             <!--  Start section  -->
-            <section class="tc-about-st10">
+            <!-- <section class="tc-about-st10">
                 <div class="main-img">
                     <img src="assets/img/about1.jpg" alt="" class="img-cover">
                 </div>
@@ -197,12 +197,12 @@ include('inc/header.php');
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!--  End section  -->
 
 
             <!--  Start services  -->
-            <section class="tc-services-st1">
+            <!-- <section class="tc-services-st1">
                 <div class="container wow fadeIn slow" data-wow-delay="0.2s">
                     <div class="title">
                         <div class="row justify-content-between align-items-end">
@@ -298,12 +298,12 @@ include('inc/header.php');
                 </div>
                 <span class="half-cir"></span>
                 <img src="assets/img/vec9.png" alt="" class="vec9">
-            </section>
+            </section> -->
             <!--  End services  -->
 
 
             <!--  Start testimonials  -->
-            <section class="tc-testimonials-st10">
+            <!-- <section class="tc-testimonials-st10">
                 <div class="container">
                     <div class="content">
                         <div class="row justify-content-between">
@@ -410,12 +410,12 @@ include('inc/header.php');
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!--  End testimonials  -->
 
 
             <!--  Start clients  -->
-            <section class="tc-clients-st4">
+            <!-- <section class="tc-clients-st4">
                 <div class="container">
                     <div class="title wow fadeIn slow" data-wow-delay="0.2s">
                         <div class="row justify-content-between align-items-end">
@@ -469,7 +469,7 @@ include('inc/header.php');
                     </div>
                 </div>
                 <img src="assets/img/vec9.png" alt="" class="vec1">
-            </section>
+            </section> -->
             <!--  End clients  -->
 
 

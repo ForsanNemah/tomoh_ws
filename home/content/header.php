@@ -1,12 +1,12 @@
-  <header class="tc-header-st6">
-      <div class="container">
+  <header class="tc-header-st6" dir="rtl">
+      <div class=" container">
           <div class="title">
               <h1 class="bold">
-                  <div class="txt"> Modern </div>
-                  <div class="txt ms-auto"> Agency </div>
+                  <div class="txt"> قـــــــمـــــــة </div>
+                  <div class="txt ms-auto"> الإنــتــشار </div>
               </h1>
-              <img src="assets/img/ltr_a.png" alt="" class="ltr_a">
-              <a href="#" class="rotate-box" data-speed="1" data-lag="0.4">
+              <!-- <img src="assets/img/ltr_a.png" alt="" class="ltr_a"> -->
+              <!-- <a href="#" class="rotate-box" data-speed="1" data-lag="0.4">
                   <div class="rotate-circle rotate-text">
                       <svg class="textcircle" viewBox="0 0 500 500">
                           <defs>
@@ -19,28 +19,28 @@
                       </svg>
                   </div>
                   <img src="assets/img/fav.png" alt="" class="icon">
-              </a>
+              </a> -->
               <img src="assets/img/vec10.png" alt="" class="vec10">
           </div>
           <div class="content">
               <div class="row">
-                  <div class="col-lg-4">
+                  <!-- <div class="col-lg-3">
                       <div class="img th-380 mt-50">
-                          <img src="assets/img/head1.jpg" alt="" class="img-cover">
+                          <img src="assets/img/h.jpg" alt="" class="img-cover">
                       </div>
-                  </div>
-                  <div class="col-lg-3 offset-lg-1">
+                  </div> -->
+                  <div class="col-lg-5 offset-lg-1">
                       <div class="info mt-5 mt-lg-0">
-                          <div class="text fsz-20 cr-777 lh-3"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div>
+                          <!-- <div class="text fsz-20 cr-777 lh-3"> Proin consequat, velit sit amet laoreet phar lorem ex mattis purusid tincidunt metus . </div> -->
                           <h6>
                               <img src="assets/img/vec2.svg" alt="" class="icon">
-                              <span class="txt"> Special Materials <br> To Make Good <br> Artech 2024 </span>
+                              <span class="txt">شركة قمة الانتشار <br> للتسويق الإلكتروني </span>
                           </h6>
                       </div>
                   </div>
                   <div class="col-lg-4">
                       <div class="img img2 th-350">
-                          <img src="assets/img/head2.jpg" alt="" class="img-cover">
+                          <img src="assets/img/hh.jpg" alt="" class="img-cover">
                       </div>
                   </div>
               </div>

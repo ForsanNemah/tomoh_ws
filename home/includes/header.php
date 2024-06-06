@@ -41,6 +41,7 @@
 
     <!-- home style -->
     <link rel="stylesheet" href="assets/css/home_6_style.css">
+
     <style>
         body {
             font-family: 'Tajawal';

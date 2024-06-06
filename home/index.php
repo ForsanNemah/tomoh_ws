@@ -77,7 +77,7 @@ include('includes/header.php');
 
             // <!--  Start portfolio  -->
 
-            include('content/portfolio.php');
+            // include('content/portfolio.php');
 
 
             // <!--  End portfolio  -->
@@ -86,7 +86,7 @@ include('includes/header.php');
             // <!--  Start clients  -->
 
 
-            include('content/clients.php');
+            // include('content/clients.php');
 
 
 
@@ -97,7 +97,7 @@ include('includes/header.php');
             // <!--  Start faq  -->
 
 
-            include('content/faq.php');
+            // include('content/faq.php');
 
 
             // <!--  End faq  -->
@@ -106,14 +106,14 @@ include('includes/header.php');
             // <!--  Start testimonials  -->
 
 
-            include('content/testimonials.php');
+            // include('content/testimonials.php');
 
             // <!--  End testimonials  -->
 
 
             // <!--  Start subscribe  -->
 
-            include('content/subscribe.php');
+            // include('content/subscribe.php');
 
 
             // <!--  End subscribe  -->
@@ -122,7 +122,7 @@ include('includes/header.php');
             // <!--  Start blog  -->
 
 
-            include('content/blog.php');
+            // include('content/blog.php');
             ?>
 
 
